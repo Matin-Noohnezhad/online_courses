@@ -1,0 +1,365 @@
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 10:29:59.794 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 10:29:59.795 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 10:29:59.797 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 10:29:59.797 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 10:29:59.797 NotebookApp] http://localhost:8888/?token=25aa8630fb0985d07573cddde787f28a21b446d513ed3cc4
+[I 10:29:59.797 NotebookApp]  or http://127.0.0.1:8888/?token=25aa8630fb0985d07573cddde787f28a21b446d513ed3cc4
+[I 10:29:59.797 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:29:59.820 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-758252-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=25aa8630fb0985d07573cddde787f28a21b446d513ed3cc4
+     or http://127.0.0.1:8888/?token=25aa8630fb0985d07573cddde787f28a21b446d513ed3cc4
+[W 10:30:03.903 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 10:30:04.270 NotebookApp] Kernel started: 0fda68b3-ac9c-4e57-8393-fe7aff89a1a3, name: python3
+[I 10:30:43.249 NotebookApp] Starting buffering for 0fda68b3-ac9c-4e57-8393-fe7aff89a1a3:0c4974796e304b5aa3c000e6cd4ac925
+[I 12:09:58.406 NotebookApp] The port 8888 is already in use, trying another port.
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 12:09:58.681 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 12:09:58.681 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 12:09:58.683 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 12:09:58.684 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 12:09:58.684 NotebookApp] http://localhost:8889/?token=58bf56309a51f27b229d3b1bb613abb5bf0384366408a688
+[I 12:09:58.684 NotebookApp]  or http://127.0.0.1:8889/?token=58bf56309a51f27b229d3b1bb613abb5bf0384366408a688
+[I 12:09:58.684 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:09:58.705 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-772691-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=58bf56309a51f27b229d3b1bb613abb5bf0384366408a688
+     or http://127.0.0.1:8889/?token=58bf56309a51f27b229d3b1bb613abb5bf0384366408a688
+[W 12:10:02.938 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 12:10:03.311 NotebookApp] Kernel started: 850dda5e-38fc-4dd9-a08c-112352fa0c9e, name: python3
+[I 12:12:03.312 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 12:53:30.349 NotebookApp] Replacing stale connection: 850dda5e-38fc-4dd9-a08c-112352fa0c9e:56ba4c7cbf744ecf8713a9c60b9fd3b7
+[I 12:53:35.351 NotebookApp] Starting buffering for 850dda5e-38fc-4dd9-a08c-112352fa0c9e:56ba4c7cbf744ecf8713a9c60b9fd3b7
+[I 12:53:35.353 NotebookApp] Restoring connection for 850dda5e-38fc-4dd9-a08c-112352fa0c9e:56ba4c7cbf744ecf8713a9c60b9fd3b7
+[I 21:59:34.044 NotebookApp] Starting buffering for 850dda5e-38fc-4dd9-a08c-112352fa0c9e:56ba4c7cbf744ecf8713a9c60b9fd3b7
+[C 21:59:35.272 NotebookApp] received signal 15, stopping
+[I 21:59:35.273 NotebookApp] Shutting down 1 kernel
+[C 21:59:35.273 NotebookApp] received signal 15, stopping
+[I 21:59:35.297 NotebookApp] Shutting down 1 kernel
+[I 21:59:35.374 NotebookApp] Kernel shutdown: 850dda5e-38fc-4dd9-a08c-112352fa0c9e
+[I 21:59:35.374 NotebookApp] Shutting down 0 terminals
+[I 21:59:35.405 NotebookApp] Kernel shutdown: 0fda68b3-ac9c-4e57-8393-fe7aff89a1a3
+[I 21:59:35.405 NotebookApp] Shutting down 0 terminals
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 08:29:16.442 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 08:29:16.442 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 08:29:16.446 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 08:29:16.446 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:29:16.446 NotebookApp] http://localhost:8888/?token=91a25c0c9e845242adf0ff48ae4e71ff346d2dd11f825636
+[I 08:29:16.446 NotebookApp]  or http://127.0.0.1:8888/?token=91a25c0c9e845242adf0ff48ae4e71ff346d2dd11f825636
+[I 08:29:16.446 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:29:16.468 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-7300-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=91a25c0c9e845242adf0ff48ae4e71ff346d2dd11f825636
+     or http://127.0.0.1:8888/?token=91a25c0c9e845242adf0ff48ae4e71ff346d2dd11f825636
+[I 08:29:30.185 NotebookApp] Kernel started: 6097e4f3-7d9f-4115-9673-724a94a49c9e, name: python3
+[I 10:19:30.208 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:29:30.187 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:30:16.442 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:31:30.203 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:33:30.202 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:37:30.205 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:43:30.210 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:45:30.198 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:47:30.207 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:49:30.210 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:51:30.205 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:53:30.206 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:54:05.312 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:55:15.160 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:01:30.192 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:03:30.198 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:07:30.215 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:09:30.218 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:11:30.191 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:13:30.218 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:14:15.832 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:25:30.224 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:27:30.213 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:29:30.212 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:31:30.214 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:31:34.755 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:31:49.563 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:31:49.659 NotebookApp] Starting buffering for 6097e4f3-7d9f-4115-9673-724a94a49c9e:cbb46db1e64448ec8f57b763ab029dda
+[I 11:31:51.997 NotebookApp] Kernel shutdown: 6097e4f3-7d9f-4115-9673-724a94a49c9e
+[I 11:31:54.727 NotebookApp] Kernel started: 687c9335-adce-4fa6-ac4f-4e3d9cd26987, name: python3
+[I 11:33:54.753 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:35:12.254 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:35:12.650 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 11:35:15.125 NotebookApp] Starting buffering for 687c9335-adce-4fa6-ac4f-4e3d9cd26987:6f847f4f7f9b44289fab6ca0f64115c8
+[I 11:37:03.604 NotebookApp] The port 8888 is already in use, trying another port.
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 11:37:03.850 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 11:37:03.851 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 11:37:03.853 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 11:37:03.853 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 11:37:03.853 NotebookApp] http://localhost:8889/?token=0c39074a402d6b71bad737d93b8de4fa2f62140165fe5871
+[I 11:37:03.853 NotebookApp]  or http://127.0.0.1:8889/?token=0c39074a402d6b71bad737d93b8de4fa2f62140165fe5871
+[I 11:37:03.853 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:37:03.874 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-33892-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=0c39074a402d6b71bad737d93b8de4fa2f62140165fe5871
+     or http://127.0.0.1:8889/?token=0c39074a402d6b71bad737d93b8de4fa2f62140165fe5871
+[W 11:37:07.961 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 11:37:08.382 NotebookApp] Kernel started: a272f285-41a2-4c14-9711-ccff239cf33f, name: python3
+[I 11:37:40.649 NotebookApp] Starting buffering for a272f285-41a2-4c14-9711-ccff239cf33f:011fcefb864048e58918cd443318cf37
+[I 08:46:34.703 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:46:34.704 NotebookApp] The port 8889 is already in use, trying another port.
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 08:46:34.976 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 08:46:34.976 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 08:46:34.979 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 08:46:34.979 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:46:34.979 NotebookApp] http://localhost:8890/?token=37e96479cc5b11e0909c1d8aff9ba4fb5f49893c7e57bd6f
+[I 08:46:34.979 NotebookApp]  or http://127.0.0.1:8890/?token=37e96479cc5b11e0909c1d8aff9ba4fb5f49893c7e57bd6f
+[I 08:46:34.979 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:46:34.999 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-192231-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=37e96479cc5b11e0909c1d8aff9ba4fb5f49893c7e57bd6f
+     or http://127.0.0.1:8890/?token=37e96479cc5b11e0909c1d8aff9ba4fb5f49893c7e57bd6f
+[I 08:46:41.933 NotebookApp] 302 GET /tree (::1) 0.63ms
+[W 08:46:45.485 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 08:46:45.932 NotebookApp] Kernel started: 0256f4cd-30a9-4e7f-917c-1fe409267b35, name: python3
+[I 09:34:45.949 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:34:45.950 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:36:04.783 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:36:04.784 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:36:45.950 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:36:45.951 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:38:45.948 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:38:45.949 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:40:45.949 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:40:45.950 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:42:20.907 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:42:20.909 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:50:45.956 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:50:45.957 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:52:45.954 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:52:45.955 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:54:45.956 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:54:45.957 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:56:45.954 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:56:45.955 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 09:58:45.953 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 09:58:45.954 NotebookApp] Notebook Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb is not trusted
+[I 10:00:43.468 NotebookApp] Starting buffering for 0256f4cd-30a9-4e7f-917c-1fe409267b35:830e30973aae4fc4893b1366519e2b6d
+[I 10:00:44.196 NotebookApp] Kernel restarted: 0256f4cd-30a9-4e7f-917c-1fe409267b35
+[I 10:00:44.223 NotebookApp] Restoring connection for 0256f4cd-30a9-4e7f-917c-1fe409267b35:830e30973aae4fc4893b1366519e2b6d
+[I 10:00:44.223 NotebookApp] Replaying 3 buffered messages
+[I 10:00:45.959 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:02:45.954 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:32:45.945 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:34:17.607 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:34:56.839 NotebookApp] Starting buffering for 0256f4cd-30a9-4e7f-917c-1fe409267b35:830e30973aae4fc4893b1366519e2b6d
+[I 10:35:47.207 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[W 10:38:14.357 NotebookApp] Replacing stale connection: 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:38:19.360 NotebookApp] Starting buffering for 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:38:19.363 NotebookApp] Restoring connection for 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:39:22.421 NotebookApp] Starting buffering for 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:39:22.838 NotebookApp] Kernel restarted: 0256f4cd-30a9-4e7f-917c-1fe409267b35
+[I 10:39:22.848 NotebookApp] Restoring connection for 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:39:22.848 NotebookApp] Replaying 3 buffered messages
+[I 10:39:46.743 NotebookApp] Saving file at /Matin_Noohnezhad_Week_3_newton_fixed_pt.ipynb
+[I 10:39:48.724 NotebookApp] Starting buffering for 0256f4cd-30a9-4e7f-917c-1fe409267b35:adbab6caea35419ebcd844d2170b46d6
+[I 10:39:51.814 NotebookApp] Kernel shutdown: 0256f4cd-30a9-4e7f-917c-1fe409267b35
+[I 10:39:53.862 NotebookApp] Kernel started: f476477b-4b29-4912-a7d7-8458777750e4, name: python3
+[I 10:39:58.272 NotebookApp] Starting buffering for f476477b-4b29-4912-a7d7-8458777750e4:3a86055c91394a45828aba02dd3a3695
+[I 10:43:57.752 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:43:57.752 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:43:57.752 NotebookApp] The port 8890 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+[W 10:44:32.260 NotebookApp] 404 GET /notebooks/mnist_ex.ipynb (127.0.0.1): No such file or directory: mnist_ex.ipynb
+[W 10:44:32.273 NotebookApp] 404 GET /notebooks/mnist_ex.ipynb (127.0.0.1) 12.96ms referer=http://localhost:8888/tree
+[W 10:44:32.427 NotebookApp] 404 GET /api/contents/prop711.ipynb?type=notebook&_=1606202072224 (127.0.0.1): No such file or directory: prop711.ipynb
+[W 10:44:32.427 NotebookApp] No such file or directory: prop711.ipynb
+[W 10:44:32.427 NotebookApp] 404 GET /api/contents/prop711.ipynb?type=notebook&_=1606202072224 (127.0.0.1) 1.07ms referer=http://localhost:8888/notebooks/prop711.ipynb
+[I 10:44:44.445 NotebookApp] Starting buffering for 687c9335-adce-4fa6-ac4f-4e3d9cd26987:fcafcccfbb7f440e8e2b629919dfff24
+[I 10:45:01.631 NotebookApp] Kernel shutdown: 687c9335-adce-4fa6-ac4f-4e3d9cd26987
+[I 10:45:20.099 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:45:20.099 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:45:20.100 NotebookApp] The port 8890 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+[W 10:46:07.547 NotebookApp] 404 GET /api/contents/prop711.ipynb?type=notebook&_=1606202167385 (127.0.0.1): No such file or directory: prop711.ipynb
+[W 10:46:07.547 NotebookApp] No such file or directory: prop711.ipynb
+[W 10:46:07.547 NotebookApp] 404 GET /api/contents/prop711.ipynb?type=notebook&_=1606202167385 (127.0.0.1) 1.14ms referer=http://localhost:8888/notebooks/prop711.ipynb
+[W 10:46:48.303 NotebookApp] Notebook FMaoKqbcEemL4BKJFeiPYA_21511c847ece409c81863c797fa0e951_week_3_newton_fixed_pt.ipynb is not trusted
+[I 10:46:48.577 NotebookApp] Kernel started: 084d125a-24fb-4495-ba8f-bf41e2c3df48, name: python3
+[I 10:46:57.536 NotebookApp] Saving file at /FMaoKqbcEemL4BKJFeiPYA_21511c847ece409c81863c797fa0e951_week_3_newton_fixed_pt.ipynb
+[I 10:46:57.618 NotebookApp] Starting buffering for 084d125a-24fb-4495-ba8f-bf41e2c3df48:67bdb4b3ce064e4aae60990ee6c9b546
+[W 10:48:29.304 NotebookApp] Notebook task_week3.ipynb is not trusted
+[I 10:48:29.630 NotebookApp] Kernel started: 78f79935-0e97-497c-b72a-70b48a295f5d, name: python3
+[I 10:50:29.668 NotebookApp] Saving file at /task_week3.ipynb
+[I 10:53:55.964 NotebookApp] Starting buffering for 78f79935-0e97-497c-b72a-70b48a295f5d:e85bfde279da46d2a1212d006c580b92
+[C 08:04:28.127 NotebookApp] received signal 15, stopping
+[C 08:04:28.127 NotebookApp] received signal 15, stopping
+[I 08:04:28.128 NotebookApp] Shutting down 1 kernel
+[I 08:04:28.128 NotebookApp] Shutting down 2 kernels
+[C 08:04:28.128 NotebookApp] received signal 15, stopping
+[I 08:04:28.131 NotebookApp] Shutting down 1 kernel
+[I 08:04:28.232 NotebookApp] Kernel shutdown: f476477b-4b29-4912-a7d7-8458777750e4
+[I 08:04:28.232 NotebookApp] Kernel shutdown: a272f285-41a2-4c14-9711-ccff239cf33f
+[I 08:04:28.233 NotebookApp] Shutting down 0 terminals
+[I 08:04:28.233 NotebookApp] Kernel shutdown: 084d125a-24fb-4495-ba8f-bf41e2c3df48
+[I 08:04:28.233 NotebookApp] Shutting down 0 terminals
+[I 08:04:28.234 NotebookApp] Kernel shutdown: 78f79935-0e97-497c-b72a-70b48a295f5d
+[I 08:04:28.235 NotebookApp] Shutting down 0 terminals
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 09:06:03.486 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 09:06:03.486 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 09:06:03.490 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 3
+[I 09:06:03.490 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:06:03.490 NotebookApp] http://localhost:8888/?token=285d62d19572f697735cd0412a2a3d3f5882902103bdd89f
+[I 09:06:03.490 NotebookApp]  or http://127.0.0.1:8888/?token=285d62d19572f697735cd0412a2a3d3f5882902103bdd89f
+[I 09:06:03.490 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:06:03.514 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-7378-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=285d62d19572f697735cd0412a2a3d3f5882902103bdd89f
+     or http://127.0.0.1:8888/?token=285d62d19572f697735cd0412a2a3d3f5882902103bdd89f
+[C 01:11:27.492 NotebookApp] received signal 15, stopping
+[I 01:11:27.495 NotebookApp] Shutting down 0 kernels
+[I 01:11:27.495 NotebookApp] Shutting down 0 terminals

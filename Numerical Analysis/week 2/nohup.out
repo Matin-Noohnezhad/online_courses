@@ -1,0 +1,172 @@
+[I 17:43:07.798 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:43:07.799 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:43:08.024 NotebookApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.7/site-packages/jupyterlab
+[I 17:43:08.024 NotebookApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[I 17:43:08.256 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 2
+[I 17:43:08.256 NotebookApp] The Jupyter Notebook is running at:
+[I 17:43:08.256 NotebookApp] http://localhost:8890/?token=5a92c41a6d3280053350b9d0725ba47b5a1f154b5778f60e
+[I 17:43:08.256 NotebookApp]  or http://127.0.0.1:8890/?token=5a92c41a6d3280053350b9d0725ba47b5a1f154b5778f60e
+[I 17:43:08.256 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:43:08.277 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-53956-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=5a92c41a6d3280053350b9d0725ba47b5a1f154b5778f60e
+     or http://127.0.0.1:8890/?token=5a92c41a6d3280053350b9d0725ba47b5a1f154b5778f60e
+[W 17:43:26.604 NotebookApp] Notebook Matin_Noohnezhad_week_2_Householder_QR.ipynb is not trusted
+[I 17:43:27.147 NotebookApp] Kernel started: 2939a1d2-592b-40a7-acec-ca8b92e4806c
+[I 17:45:27.149 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 17:59:27.156 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:25:27.251 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:27:27.222 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:31:27.220 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:33:27.234 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:34:20.624 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:35:27.234 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:37:27.234 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:39:27.221 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:41:27.227 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:45:27.229 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:46:52.973 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:47:27.235 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 01:48:49.828 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 17:52:42.572 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 17:56:42.585 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 17:58:42.567 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:00:42.572 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:02:42.568 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:04:42.582 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:06:42.575 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:08:42.582 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:10:42.573 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:12:42.573 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:16:42.585 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:18:42.582 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:22:42.595 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:24:42.584 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:26:42.573 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:30:42.585 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:32:42.577 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:33:17.263 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:54:42.614 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:56:42.594 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 18:58:05.421 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:00:42.590 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:02:42.577 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:04:42.592 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:06:42.582 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:08:42.577 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:10:42.578 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:11:52.848 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:44:42.610 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 19:46:42.590 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:12:42.621 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:13:46.374 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:24:28.575 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:26:42.606 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:28:42.591 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:30:42.606 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:31:43.706 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:32:17.737 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:32:42.594 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:33:30.443 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:34:42.590 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:38:42.605 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:40:42.593 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:42:42.588 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:44:42.604 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:46:42.622 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:46:56.458 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 20:47:01.017 NotebookApp] Starting buffering for 2939a1d2-592b-40a7-acec-ca8b92e4806c:550f9c21450340a4bc83fac16d5d2b1e
+[I 20:47:01.532 NotebookApp] Kernel restarted: 2939a1d2-592b-40a7-acec-ca8b92e4806c
+[I 20:47:01.975 NotebookApp] Restoring connection for 2939a1d2-592b-40a7-acec-ca8b92e4806c:550f9c21450340a4bc83fac16d5d2b1e
+[I 20:47:01.975 NotebookApp] Replaying 6 buffered messages
+[I 20:47:20.494 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:10:42.635 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:11:51.252 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:12:42.611 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:13:10.057 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:14:42.644 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:15:16.094 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:15:20.026 NotebookApp] Starting buffering for 2939a1d2-592b-40a7-acec-ca8b92e4806c:550f9c21450340a4bc83fac16d5d2b1e
+[I 22:15:20.554 NotebookApp] Kernel restarted: 2939a1d2-592b-40a7-acec-ca8b92e4806c
+[I 22:15:21.077 NotebookApp] Restoring connection for 2939a1d2-592b-40a7-acec-ca8b92e4806c:550f9c21450340a4bc83fac16d5d2b1e
+[I 22:15:21.077 NotebookApp] Replaying 3 buffered messages
+[I 22:15:36.030 NotebookApp] Saving file at /Matin_Noohnezhad_week_2_Householder_QR.ipynb
+[I 22:18:29.776 NotebookApp] The port 8888 is already in use, trying another port.
+[I 22:18:29.776 NotebookApp] The port 8889 is already in use, trying another port.
+[I 22:18:29.777 NotebookApp] The port 8890 is already in use, trying another port.
+[I 22:18:30.008 NotebookApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.7/site-packages/jupyterlab
+[I 22:18:30.009 NotebookApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[I 22:18:30.212 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 2
+[I 22:18:30.212 NotebookApp] The Jupyter Notebook is running at:
+[I 22:18:30.212 NotebookApp] http://localhost:8891/?token=f2774fda1eb3494d1eab8dc267ff8ecf2799117d401c29e5
+[I 22:18:30.212 NotebookApp]  or http://127.0.0.1:8891/?token=f2774fda1eb3494d1eab8dc267ff8ecf2799117d401c29e5
+[I 22:18:30.212 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:18:30.232 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-474335-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=f2774fda1eb3494d1eab8dc267ff8ecf2799117d401c29e5
+     or http://127.0.0.1:8891/?token=f2774fda1eb3494d1eab8dc267ff8ecf2799117d401c29e5
+[I 22:18:34.614 NotebookApp] Kernel started: 50019ee5-3e65-4cfb-9934-816595835fe2
+[I 22:18:42.426 NotebookApp] Starting buffering for 50019ee5-3e65-4cfb-9934-816595835fe2:443770b7fe49403380f4239921050c9d
+[I 13:13:15.916 NotebookApp] Starting buffering for 2939a1d2-592b-40a7-acec-ca8b92e4806c:550f9c21450340a4bc83fac16d5d2b1e
+[C 13:13:17.782 NotebookApp] received signal 15, stopping
+[C 13:13:17.782 NotebookApp] received signal 15, stopping
+[I 13:13:17.942 NotebookApp] Shutting down 1 kernel
+[I 13:13:17.942 NotebookApp] Shutting down 1 kernel
+[I 13:13:18.081 NotebookApp] Kernel shutdown: 50019ee5-3e65-4cfb-9934-816595835fe2
+[I 13:13:18.082 NotebookApp] Kernel shutdown: 2939a1d2-592b-40a7-acec-ca8b92e4806c
+[I 09:58:02.235 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:58:02.235 NotebookApp] The port 8889 is already in use, trying another port.
+[I 09:58:02.236 NotebookApp] The port 8890 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+[I 09:58:33.286 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:58:33.287 NotebookApp] The port 8889 is already in use, trying another port.
+[I 09:58:33.287 NotebookApp] The port 8890 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
