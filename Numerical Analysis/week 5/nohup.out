@@ -1,0 +1,16 @@
+[I 09:05:27.789 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 09:05:27.789 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 09:05:27.792 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 5
+[I 09:05:27.792 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:05:27.792 NotebookApp] http://localhost:8888/?token=6ea8ccb4a5d89bf15504bb6bb4260130099f9b0f7b3c15ea
+[I 09:05:27.792 NotebookApp]  or http://127.0.0.1:8888/?token=6ea8ccb4a5d89bf15504bb6bb4260130099f9b0f7b3c15ea
+[I 09:05:27.792 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:05:27.836 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-13663-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=6ea8ccb4a5d89bf15504bb6bb4260130099f9b0f7b3c15ea
+     or http://127.0.0.1:8888/?token=6ea8ccb4a5d89bf15504bb6bb4260130099f9b0f7b3c15ea
+[W 09:05:32.953 NotebookApp] Notebook dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb is not trusted
+[I 09:05:33.384 NotebookApp] Kernel started: 8231cc5f-29ac-4805-99ab-3e9d8d57e878, name: python3
