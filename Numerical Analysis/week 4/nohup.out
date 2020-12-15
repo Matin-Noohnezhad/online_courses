@@ -362,3 +362,25 @@ Emitted 'error' event on ReadStream instance at:
 [I 19:57:39.909 NotebookApp] Kernel shutdown: 38c768f3-4814-437b-addc-ddf705162de1
 [I 19:57:39.910 NotebookApp] Shutting down 0 terminals
 [I 19:57:39.910 NotebookApp] Shutting down 0 terminals
+[I 08:06:38.672 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:06:38.744 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 08:06:38.744 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 08:06:38.746 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 4
+[I 08:06:38.746 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:06:38.746 NotebookApp] http://localhost:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[I 08:06:38.746 NotebookApp]  or http://127.0.0.1:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[I 08:06:38.746 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:06:38.789 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-63573-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+     or http://127.0.0.1:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[W 08:06:45.658 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:06:46.312 NotebookApp] Kernel started: 40fd7298-4796-4892-bd08-271c49d4957a, name: python3
+[I 08:08:53.553 NotebookApp] Saving file at /Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb
+[W 08:08:53.553 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:08:53.590 NotebookApp] Saving file at /Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb
+[W 08:08:53.590 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:08:53.652 NotebookApp] Starting buffering for 40fd7298-4796-4892-bd08-271c49d4957a:ca9b09b0b6d64d76bd5bb080e70e314f
