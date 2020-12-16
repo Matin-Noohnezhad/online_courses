@@ -1,0 +1,22 @@
+[I 16:46:58.794 NotebookApp] The port 8888 is already in use, trying another port.
+[I 16:46:58.795 NotebookApp] The port 8889 is already in use, trying another port.
+[I 16:46:58.795 NotebookApp] The port 8890 is already in use, trying another port.
+[I 16:46:58.795 NotebookApp] The port 8891 is already in use, trying another port.
+[I 16:46:58.795 NotebookApp] The port 8892 is already in use, trying another port.
+[I 16:46:58.892 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 16:46:58.892 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 16:46:58.894 NotebookApp] Serving notebooks from local directory: /home/matin/codes/fp
+[I 16:46:58.894 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 16:46:58.894 NotebookApp] http://localhost:8881/?token=650a9f4d0f7fc90da666243f4f8edb886405a7708fb525f0
+[I 16:46:58.894 NotebookApp]  or http://127.0.0.1:8881/?token=650a9f4d0f7fc90da666243f4f8edb886405a7708fb525f0
+[I 16:46:58.894 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:46:58.939 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-124398-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8881/?token=650a9f4d0f7fc90da666243f4f8edb886405a7708fb525f0
+     or http://127.0.0.1:8881/?token=650a9f4d0f7fc90da666243f4f8edb886405a7708fb525f0
+[W 16:47:03.418 NotebookApp] Notebook prop711.ipynb is not trusted
+[I 16:47:03.731 NotebookApp] Kernel started: 726769dc-565c-46a3-b23a-5d2fd02af0d7, name: python3
+[I 16:47:06.352 NotebookApp] Starting buffering for 726769dc-565c-46a3-b23a-5d2fd02af0d7:cfe903aecb89414c821a013d42ca133a
