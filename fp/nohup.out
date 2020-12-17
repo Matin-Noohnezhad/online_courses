@@ -20,3 +20,407 @@
 [W 16:47:03.418 NotebookApp] Notebook prop711.ipynb is not trusted
 [I 16:47:03.731 NotebookApp] Kernel started: 726769dc-565c-46a3-b23a-5d2fd02af0d7, name: python3
 [I 16:47:06.352 NotebookApp] Starting buffering for 726769dc-565c-46a3-b23a-5d2fd02af0d7:cfe903aecb89414c821a013d42ca133a
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 18:46:14.228 LabApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 18:46:14.228 LabApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 18:46:14.232 LabApp] Serving notebooks from local directory: /home/matin/course/codes/fp
+[I 18:46:14.232 LabApp] Jupyter Notebook 6.1.4 is running at:
+[I 18:46:14.232 LabApp] http://localhost:8888/?token=3ded679ae6fc22e19f203770fd5e630ed43218d9a88b8c42
+[I 18:46:14.232 LabApp]  or http://127.0.0.1:8888/?token=3ded679ae6fc22e19f203770fd5e630ed43218d9a88b8c42
+[I 18:46:14.232 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:46:14.256 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-7994-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=3ded679ae6fc22e19f203770fd5e630ed43218d9a88b8c42
+     or http://127.0.0.1:8888/?token=3ded679ae6fc22e19f203770fd5e630ed43218d9a88b8c42
+[E 18:46:16.934 LabApp] Fail to get yarn configuration. node:events:353
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:188:8)
+        at errorOrDestroy (node:internal/streams/destroy:251:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[I 18:46:17.346 LabApp] Build is up to date
+[E 18:46:18.060 LabApp] Fail to get yarn configuration. node:events:353
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:188:8)
+        at errorOrDestroy (node:internal/streams/destroy:251:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[W 18:46:18.065 LabApp] 404 GET /api/contents/00-logic_neuron_programming.ipynb?content=0&1608131777778 (127.0.0.1): No such file or directory: 00-logic_neuron_programming.ipynb
+[W 18:46:18.065 LabApp] No such file or directory: 00-logic_neuron_programming.ipynb
+[W 18:46:18.066 LabApp] 404 GET /api/contents/00-logic_neuron_programming.ipynb?content=0&1608131777778 (127.0.0.1) 2.10ms referer=http://localhost:8888/lab
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 18:48:00.391 LabApp] The port 8888 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 18:48:00.625 LabApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 18:48:00.625 LabApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 18:48:00.628 LabApp] Serving notebooks from local directory: /home/matin/course/codes/fp
+[I 18:48:00.628 LabApp] Jupyter Notebook 6.1.4 is running at:
+[I 18:48:00.628 LabApp] http://localhost:8889/?token=0426231ddef81fa54c2efaa3f38a9f8e2997c1fb54e41190
+[I 18:48:00.628 LabApp]  or http://127.0.0.1:8889/?token=0426231ddef81fa54c2efaa3f38a9f8e2997c1fb54e41190
+[I 18:48:00.628 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:48:00.652 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-8828-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=0426231ddef81fa54c2efaa3f38a9f8e2997c1fb54e41190
+     or http://127.0.0.1:8889/?token=0426231ddef81fa54c2efaa3f38a9f8e2997c1fb54e41190
+[E 18:48:03.293 LabApp] Fail to get yarn configuration. node:events:353
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:188:8)
+        at errorOrDestroy (node:internal/streams/destroy:251:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[I 18:48:03.453 LabApp] Build is up to date
+[E 18:48:04.146 LabApp] Fail to get yarn configuration. node:events:353
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:188:8)
+        at errorOrDestroy (node:internal/streams/destroy:251:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[I 18:48:08.839 LabApp] Kernel started: 1300ac6e-d678-44ff-b860-a603aa78900a, name: python3
+[I 18:48:14.474 LabApp] Creating new file in /
+[W 18:48:21.243 LabApp] delete /untitled.md
+[I 14:52:51.197 LabApp] Saving file at /prop711.ipynb
+[I 14:58:51.286 LabApp] Saving file at /prop711.ipynb
+[I 15:00:51.381 LabApp] Saving file at /prop711.ipynb
+[I 15:02:51.473 LabApp] Saving file at /prop711.ipynb
+[I 15:12:51.565 LabApp] Saving file at /prop711.ipynb
+2020-12-17 15:13:30.936231: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-17 15:13:31.034635: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-17 15:13:31.034758: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-17 15:13:31.034783: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-17 15:13:31.034913: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-17 15:13:31.034981: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-17 15:13:31.034995: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-17 15:13:31.035679: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 15:13:31.058843: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-17 15:13:31.060875: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561ab412eaf0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-17 15:13:31.060917: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-17 15:13:31.123497: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+2020-12-17 15:13:32.768813: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 122880000 exceeds 10% of free system memory.
+2020-12-17 15:13:33.829663: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 122880000 exceeds 10% of free system memory.
+2020-12-17 15:13:34.744267: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 122880000 exceeds 10% of free system memory.
+2020-12-17 15:13:35.684373: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 122880000 exceeds 10% of free system memory.
+[I 15:13:45.429 LabApp] Kernel interrupted: 1300ac6e-d678-44ff-b860-a603aa78900a
+[I 15:14:51.637 LabApp] Saving file at /prop711.ipynb
+[I 15:16:20.265 LabApp] Kernel started: 8b775eda-2af9-476f-ae95-23b9c880bed2, name: python3
+[I 15:16:51.699 LabApp] Saving file at /prop711.ipynb
+[I 15:18:51.752 LabApp] Saving file at /prop711.ipynb
+[I 15:20:51.820 LabApp] Saving file at /prop711.ipynb
+[I 15:22:51.925 LabApp] Saving file at /prop711.ipynb
+[I 15:24:51.995 LabApp] Saving file at /prop711.ipynb
+[I 15:26:52.076 LabApp] Saving file at /prop711.ipynb
+[I 15:28:52.177 LabApp] Saving file at /prop711.ipynb
+[I 15:30:52.288 LabApp] Saving file at /prop711.ipynb
+[I 15:32:52.381 LabApp] Saving file at /prop711.ipynb
+[I 15:34:52.452 LabApp] Saving file at /prop711.ipynb
+[I 15:44:52.542 LabApp] Saving file at /prop711.ipynb
+[I 15:46:52.640 LabApp] Saving file at /prop711.ipynb
+[I 15:48:52.715 LabApp] Saving file at /prop711.ipynb
+[I 16:02:54.038 LabApp] Saving file at /prop711.ipynb
+[I 16:04:54.130 LabApp] Saving file at /prop711.ipynb
+[I 16:06:54.217 LabApp] Saving file at /prop711.ipynb
+[I 16:08:54.309 LabApp] Saving file at /prop711.ipynb
+[I 16:10:54.405 LabApp] Saving file at /prop711.ipynb
+[I 16:12:43.153 LabApp] Kernel restarted: 1300ac6e-d678-44ff-b860-a603aa78900a
+2020-12-17 16:12:52.763541: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-17 16:12:52.903867: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-17 16:12:52.904478: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-17 16:12:52.904512: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-17 16:12:52.904651: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-17 16:12:52.904724: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-17 16:12:52.904744: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-17 16:12:52.905485: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 16:12:52.931926: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-17 16:12:52.933414: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560447c8da00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-17 16:12:52.933476: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[I 16:12:54.479 LabApp] Saving file at /prop711.ipynb
+[I 16:14:54.529 LabApp] Saving file at /prop711.ipynb
+[I 16:16:54.602 LabApp] Saving file at /prop711.ipynb
+[I 16:18:54.695 LabApp] Saving file at /prop711.ipynb
+[I 16:20:54.790 LabApp] Saving file at /prop711.ipynb
+[I 16:22:54.872 LabApp] Saving file at /prop711.ipynb
+[I 16:24:54.952 LabApp] Saving file at /prop711.ipynb
+[I 16:26:55.021 LabApp] Saving file at /prop711.ipynb
+[I 16:27:40.364 LabApp] Kernel restarted: 1300ac6e-d678-44ff-b860-a603aa78900a
+[I 16:27:41.650 LabApp] Kernel interrupted: 1300ac6e-d678-44ff-b860-a603aa78900a
+[I 16:28:00.335 LabApp] Kernel restarted: 1300ac6e-d678-44ff-b860-a603aa78900a
+[I 16:28:27.039 LabApp] Kernel restarted: 1300ac6e-d678-44ff-b860-a603aa78900a
+2020-12-17 16:28:34.070598: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-17 16:28:34.159383: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-17 16:28:34.159463: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-17 16:28:34.159480: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-17 16:28:34.159598: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-17 16:28:34.159660: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-17 16:28:34.159673: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-17 16:28:34.160412: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 16:28:34.171473: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-17 16:28:34.172459: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56322228f3b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-17 16:28:34.172497: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[I 16:28:55.116 LabApp] Saving file at /prop711.ipynb
+[I 16:30:55.210 LabApp] Saving file at /prop711.ipynb
+[I 16:32:55.253 LabApp] Saving file at /prop711.ipynb
+[I 16:34:55.315 LabApp] Saving file at /prop711.ipynb
+[I 16:36:55.392 LabApp] Saving file at /prop711.ipynb
+[I 16:38:55.475 LabApp] Saving file at /prop711.ipynb
+[I 16:40:55.551 LabApp] Saving file at /prop711.ipynb
+[I 16:42:55.639 LabApp] Saving file at /prop711.ipynb
+[I 16:44:55.745 LabApp] Saving file at /prop711.ipynb
+[I 16:46:55.837 LabApp] Saving file at /prop711.ipynb
+[I 16:48:56.051 LabApp] Saving file at /prop711.ipynb
+[I 16:50:56.214 LabApp] Saving file at /prop711.ipynb
+[I 16:53:07.488 LabApp] Saving file at /prop711.ipynb
+[I 16:59:01.210 LabApp] Saving file at /prop711.ipynb
+[I 17:47:11.998 LabApp] Saving file at /prop711.ipynb
+[I 20:54:35.441 LabApp] Kernel restarted: 1300ac6e-d678-44ff-b860-a603aa78900a
+2020-12-17 20:54:44.377075: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-17 20:54:44.477727: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-17 20:54:44.477788: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-17 20:54:44.477804: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-17 20:54:44.477909: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-17 20:54:44.477955: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-17 20:54:44.477965: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-17 20:54:44.478546: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 20:54:44.486973: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-17 20:54:44.487785: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560efbeed470 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-17 20:54:44.487812: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[I 20:55:12.116 LabApp] Saving file at /prop711.ipynb
+[I 20:57:12.172 LabApp] Saving file at /prop711.ipynb
+[I 20:59:12.220 LabApp] Saving file at /prop711.ipynb
+[I 21:01:12.294 LabApp] Saving file at /prop711.ipynb
+[I 21:03:12.383 LabApp] Saving file at /prop711.ipynb
+[I 21:05:12.443 LabApp] Saving file at /prop711.ipynb
+[I 21:15:12.567 LabApp] Saving file at /prop711.ipynb
+[I 21:17:12.673 LabApp] Saving file at /prop711.ipynb
+[I 21:19:12.780 LabApp] Saving file at /prop711.ipynb
+[I 21:21:12.883 LabApp] Saving file at /prop711.ipynb
+[I 22:13:30.785 LabApp] Kernel started: 7215b69d-f364-4e3e-8722-365d837a0153, name: python3
+[I 22:50:08.987 LabApp] Starting buffering for 7215b69d-f364-4e3e-8722-365d837a0153:02e0e82c-f7eb-42a3-8a3e-878651eaba16
+[I 22:50:13.441 LabApp] Kernel started: 20cf3006-d2c2-474a-9487-3e4934a16228, name: python3
+[I 23:24:45.554 LabApp] Starting buffering for 20cf3006-d2c2-474a-9487-3e4934a16228:d50a6338-391b-410b-8512-b46fd9e89527
+[I 23:25:26.351 LabApp] Creating new file in /
+[W 23:26:05.316 LabApp] 400 GET /api/contents/prop716.ipynb?type=notebook&content=1&1608234965313 (127.0.0.1): Unreadable Notebook: /home/matin/course/codes/fp/prop716.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 23:26:05.316 LabApp] Unreadable Notebook: /home/matin/course/codes/fp/prop716.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 23:26:05.317 LabApp] 400 GET /api/contents/prop716.ipynb?type=notebook&content=1&1608234965313 (127.0.0.1) 2.10ms referer=http://localhost:8889/lab
+[W 23:26:20.259 LabApp] delete /prop716.ipynb
+[I 23:27:05.234 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:27:05.234 NotebookApp] The port 8889 is already in use, trying another port.
+[I 23:27:05.234 NotebookApp] The port 8890 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 23:27:05.847 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 23:27:05.847 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 23:27:05.850 NotebookApp] Serving notebooks from local directory: /home/matin/course/codes/fp
+[I 23:27:05.850 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 23:27:05.850 NotebookApp] http://localhost:8891/?token=18b9b731fbffd90f56acde3bac2fa04f1dae3251032b9fba
+[I 23:27:05.850 NotebookApp]  or http://127.0.0.1:8891/?token=18b9b731fbffd90f56acde3bac2fa04f1dae3251032b9fba
+[I 23:27:05.850 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:27:05.879 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-238237-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=18b9b731fbffd90f56acde3bac2fa04f1dae3251032b9fba
+     or http://127.0.0.1:8891/?token=18b9b731fbffd90f56acde3bac2fa04f1dae3251032b9fba
+[I 23:27:11.746 NotebookApp] Creating new notebook in 
+[I 23:27:14.193 NotebookApp] Kernel started: b39935e4-cd8e-4916-ab92-04707806f096, name: python3
+[I 23:27:34.870 NotebookApp] Saving file at /prop716.ipynb
+[I 23:27:40.470 NotebookApp] Kernel started: 6f300c2d-7e66-4eb6-a8aa-3fb247b98e43, name: python3
+[I 23:27:47.690 NotebookApp] Starting buffering for 6f300c2d-7e66-4eb6-a8aa-3fb247b98e43:74ca03d80fe04527ad7245e152413184
+[I 23:27:52.029 NotebookApp] Starting buffering for b39935e4-cd8e-4916-ab92-04707806f096:f4ae0f5e64c944b8850bd4bb264e98a4
+[I 23:27:54.937 NotebookApp] Starting buffering for b39935e4-cd8e-4916-ab92-04707806f096:d11144ebf8ea4e7285836f64bed6e161
+[I 23:28:03.057 NotebookApp] Starting buffering for b39935e4-cd8e-4916-ab92-04707806f096:23bb6b66c5514e0d9bccca4ce5d80a55
+[I 23:28:06.390 NotebookApp] Kernel shutdown: 6f300c2d-7e66-4eb6-a8aa-3fb247b98e43
+[I 23:28:09.716 NotebookApp] Kernel shutdown: b39935e4-cd8e-4916-ab92-04707806f096
+[W 23:28:13.907 NotebookApp] delete /prop716.ipynb
+[I 23:28:37.241 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:28:37.242 NotebookApp] The port 8889 is already in use, trying another port.
+[I 23:28:37.242 NotebookApp] The port 8890 is already in use, trying another port.
+[I 23:28:37.242 NotebookApp] The port 8891 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 23:28:37.620 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 23:28:37.620 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 23:28:37.623 NotebookApp] Serving notebooks from local directory: /home/matin/course/codes/fp
+[I 23:28:37.623 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 23:28:37.623 NotebookApp] http://localhost:8892/?token=50a6b485afd25474b6f7c55562bfdfad934e03900df2824c
+[I 23:28:37.623 NotebookApp]  or http://127.0.0.1:8892/?token=50a6b485afd25474b6f7c55562bfdfad934e03900df2824c
+[I 23:28:37.623 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:28:37.647 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-238638-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/?token=50a6b485afd25474b6f7c55562bfdfad934e03900df2824c
+     or http://127.0.0.1:8892/?token=50a6b485afd25474b6f7c55562bfdfad934e03900df2824c
+[I 23:28:42.896 NotebookApp] Kernel started: c0387f22-c211-4ce5-a1fa-770c0a7dc89a, name: python3
+[I 23:29:06.788 LabApp] Starting buffering for 7215b69d-f364-4e3e-8722-365d837a0153:70b76810-83a6-472a-95e3-9f84b474f6f0
+[I 23:29:13.223 LabApp] Kernel started: 790dbef2-cd25-4bc3-901d-228afb16ac87, name: python3
+[I 23:29:15.779 LabApp] Kernel started: 2678858e-8809-4fa7-8f37-36f22fca1def, name: python3
+[I 23:30:42.920 NotebookApp] Saving file at /prop716.ipynb
+[I 23:32:42.915 NotebookApp] Saving file at /prop716.ipynb
+[I 23:34:42.918 NotebookApp] Saving file at /prop716.ipynb
+[I 23:34:54.089 NotebookApp] Saving file at /prop716.ipynb
+[I 23:36:07.496 NotebookApp] Saving file at /prop716.ipynb
+[I 23:36:42.893 NotebookApp] Saving file at /prop716.ipynb
+[I 23:56:42.924 NotebookApp] Saving file at /prop716.ipynb
+[I 23:58:42.917 NotebookApp] Saving file at /prop716.ipynb
+[I 23:58:59.127 NotebookApp] Starting buffering for c0387f22-c211-4ce5-a1fa-770c0a7dc89a:eddcd6bd70ca4148bc3885676601dc41
+[I 23:58:59.643 NotebookApp] Kernel restarted: c0387f22-c211-4ce5-a1fa-770c0a7dc89a
+[I 23:58:59.653 NotebookApp] Restoring connection for c0387f22-c211-4ce5-a1fa-770c0a7dc89a:eddcd6bd70ca4148bc3885676601dc41
+[I 23:58:59.654 NotebookApp] Replaying 3 buffered messages
+[I 23:59:22.933 NotebookApp] Starting buffering for c0387f22-c211-4ce5-a1fa-770c0a7dc89a:eddcd6bd70ca4148bc3885676601dc41
+[I 23:59:23.659 NotebookApp] Kernel restarted: c0387f22-c211-4ce5-a1fa-770c0a7dc89a
+[I 23:59:23.686 NotebookApp] Restoring connection for c0387f22-c211-4ce5-a1fa-770c0a7dc89a:eddcd6bd70ca4148bc3885676601dc41
+[I 23:59:23.687 NotebookApp] Replaying 3 buffered messages
+2020-12-17 23:59:30.676979: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-17 23:59:30.759936: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-17 23:59:30.760008: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-17 23:59:30.760025: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-17 23:59:30.760148: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-17 23:59:30.760230: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-17 23:59:30.760256: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-17 23:59:30.760969: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 23:59:30.771291: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-17 23:59:30.772667: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559e6ad0f190 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-17 23:59:30.772706: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-17 23:59:30.848377: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+[I 00:00:42.894 NotebookApp] Saving file at /prop716.ipynb
+2020-12-18 00:01:41.840718: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+2020-12-18 00:01:45.354493: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+[I 00:02:42.892 NotebookApp] Saving file at /prop716.ipynb
+2020-12-18 00:03:48.261751: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+[I 00:04:42.912 NotebookApp] Saving file at /prop716.ipynb
+2020-12-18 00:07:56.250772: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+[I 00:08:30.251 NotebookApp] Kernel interrupted: c0387f22-c211-4ce5-a1fa-770c0a7dc89a
+[I 00:08:42.892 NotebookApp] Saving file at /prop716.ipynb
+[I 00:10:42.893 NotebookApp] Saving file at /prop716.ipynb
+[I 00:12:42.893 NotebookApp] Saving file at /prop716.ipynb
+[I 00:14:42.908 NotebookApp] Saving file at /prop716.ipynb
+[I 00:18:27.031 NotebookApp] Starting buffering for c0387f22-c211-4ce5-a1fa-770c0a7dc89a:eddcd6bd70ca4148bc3885676601dc41
+[I 00:18:44.100 LabApp] Starting buffering for 8b775eda-2af9-476f-ae95-23b9c880bed2:05e3e8ba-118d-4731-86d2-e6efb83a3880
+[I 00:18:44.500 LabApp] Starting buffering for 790dbef2-cd25-4bc3-901d-228afb16ac87:cb4fed93-f4bd-4734-bbbb-b52f4b6551a5
+[I 00:18:45.080 LabApp] Starting buffering for 2678858e-8809-4fa7-8f37-36f22fca1def:eabfb164-9a75-4d41-be56-d122911bfe87
