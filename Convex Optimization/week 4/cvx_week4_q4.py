@@ -1,5 +1,6 @@
 import numpy as np
 import cvxpy as cp
+# import cvxpy.atoms.elementwise.maximum as maximum
 
 n=20
 
@@ -20,8 +21,12 @@ reward_min = float(pbar.T @ x_unif)
 # ones = np.ones((n,1))
 
 x = cp.Variable(n)
+# x2 = maximum(x, 0)
 objective = cp.Minimize(cp.quad_form(x, S))
-constraints = [x >= 0, cp.sum(x)==1, pbar.T @ x >= reward_min]
+constraints = [x >= 0, cp.sum(x)==1, pbar.T @ x >= reward_min] # for question 1
+# constraints = [cp.sum(x)==1] # for question 2
+# constraints = [x >= 0, cp.sum(x)==1] # for question 3
+# constraints = [ cp.sum(x2)<=0.5, cp.sum(x)==1, pbar.T @ x >= reward_min] # for question 3
 prob = cp.Problem(objective, constraints)
 
 result = prob.solve()

@@ -1,0 +1,84 @@
+[I 09:23:29.047 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:23:29.047 NotebookApp] The port 8889 is already in use, trying another port.
+[I 09:23:29.048 NotebookApp] The port 8890 is already in use, trying another port.
+[I 09:23:29.048 NotebookApp] The port 8891 is already in use, trying another port.
+[I 09:23:29.048 NotebookApp] The port 8892 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+[I 09:25:07.057 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:25:07.058 NotebookApp] The port 8889 is already in use, trying another port.
+[I 09:25:07.058 NotebookApp] The port 8890 is already in use, trying another port.
+[I 09:25:07.058 NotebookApp] The port 8891 is already in use, trying another port.
+[I 09:25:07.058 NotebookApp] The port 8892 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 09:25:07.696 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 09:25:07.696 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 09:25:07.699 NotebookApp] Serving notebooks from local directory: /home/matin/course/codes/fp
+[I 09:25:07.699 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:25:07.699 NotebookApp] http://localhost:8818/?token=d9625ffd5c6ec9967e72f33198d34f5aee5ce2ace7a71876
+[I 09:25:07.699 NotebookApp]  or http://127.0.0.1:8818/?token=d9625ffd5c6ec9967e72f33198d34f5aee5ce2ace7a71876
+[I 09:25:07.699 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:25:07.727 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-322135-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8818/?token=d9625ffd5c6ec9967e72f33198d34f5aee5ce2ace7a71876
+     or http://127.0.0.1:8818/?token=d9625ffd5c6ec9967e72f33198d34f5aee5ce2ace7a71876
+[I 09:25:19.799 NotebookApp] Kernel started: 0e444e6f-104a-47ee-b5e5-02882da281ce, name: python3
+[I 09:27:19.816 NotebookApp] Saving file at /prop718_sampling.ipynb
+[I 09:27:40.953 NotebookApp] Starting buffering for 0e444e6f-104a-47ee-b5e5-02882da281ce:1f86c106461b489580607f9dff91ece7
+[I 09:27:41.271 NotebookApp] Kernel restarted: 0e444e6f-104a-47ee-b5e5-02882da281ce
+[I 09:27:41.290 NotebookApp] Restoring connection for 0e444e6f-104a-47ee-b5e5-02882da281ce:1f86c106461b489580607f9dff91ece7
+[I 09:27:41.290 NotebookApp] Replaying 3 buffered messages
+2020-12-18 09:27:50.633280: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-18 09:27:50.781795: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-12-18 09:27:50.781896: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MSGpc
+2020-12-18 09:27:50.781919: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MSGpc
+2020-12-18 09:27:50.782070: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.80.2
+2020-12-18 09:27:50.782147: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.80.2
+2020-12-18 09:27:50.782164: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.80.2
+2020-12-18 09:27:50.783047: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-18 09:27:50.816871: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2601325000 Hz
+2020-12-18 09:27:50.819272: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aca201cf40 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-18 09:27:50.819367: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-18 09:27:51.850239: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 614400000 exceeds 10% of free system memory.
+[I 09:29:19.793 NotebookApp] Saving file at /prop718_sampling.ipynb
+2020-12-18 09:31:16.125133: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 122880000 exceeds 10% of free system memory.
+[I 09:31:19.791 NotebookApp] Saving file at /prop718_sampling.ipynb
+[I 09:32:55.964 NotebookApp] Kernel interrupted: 0e444e6f-104a-47ee-b5e5-02882da281ce
+[I 09:33:19.801 NotebookApp] Saving file at /prop718_sampling.ipynb
