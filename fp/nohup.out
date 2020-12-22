@@ -82,3 +82,21 @@ Emitted 'error' event on ReadStream instance at:
 [I 09:31:19.791 NotebookApp] Saving file at /prop718_sampling.ipynb
 [I 09:32:55.964 NotebookApp] Kernel interrupted: 0e444e6f-104a-47ee-b5e5-02882da281ce
 [I 09:33:19.801 NotebookApp] Saving file at /prop718_sampling.ipynb
+[I 23:50:10.420 LabApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 23:50:10.420 LabApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 23:50:10.422 LabApp] Serving notebooks from local directory: /home/matin/codes/fp
+[I 23:50:10.422 LabApp] Jupyter Notebook 6.1.4 is running at:
+[I 23:50:10.422 LabApp] http://localhost:8888/?token=055f0023e9e62844e2b8c2540f3d3506228160d8ce9fdfb3
+[I 23:50:10.422 LabApp]  or http://127.0.0.1:8888/?token=055f0023e9e62844e2b8c2540f3d3506228160d8ce9fdfb3
+[I 23:50:10.422 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:50:10.496 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-3204-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=055f0023e9e62844e2b8c2540f3d3506228160d8ce9fdfb3
+     or http://127.0.0.1:8888/?token=055f0023e9e62844e2b8c2540f3d3506228160d8ce9fdfb3
+[W 23:50:14.158 LabApp] Could not determine jupyterlab build status without nodejs
+[W 23:50:17.169 LabApp] Notebook prop718_sampling.ipynb is not trusted
+[I 23:50:17.653 LabApp] Kernel started: 078e7d01-5db1-41cb-af9a-514dd3a84571, name: python3
+[I 23:51:29.324 LabApp] Starting buffering for 078e7d01-5db1-41cb-af9a-514dd3a84571:5d30a5d1-3ec8-4776-9821-39a01e42d041
