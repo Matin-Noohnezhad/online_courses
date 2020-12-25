@@ -1,0 +1,41 @@
+[I 08:12:19.960 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:12:20.022 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 08:12:20.022 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 08:12:20.024 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis
+[I 08:12:20.024 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:12:20.024 NotebookApp] http://localhost:8889/?token=d1b6f93464c7c2dc04ddc3014e565f9c189a0a6e901e4012
+[I 08:12:20.024 NotebookApp]  or http://127.0.0.1:8889/?token=d1b6f93464c7c2dc04ddc3014e565f9c189a0a6e901e4012
+[I 08:12:20.024 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:12:20.068 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-3920-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=d1b6f93464c7c2dc04ddc3014e565f9c189a0a6e901e4012
+     or http://127.0.0.1:8889/?token=d1b6f93464c7c2dc04ddc3014e565f9c189a0a6e901e4012
+[I 08:12:33.590 NotebookApp] Kernel started: e2ab1d45-d124-4fab-83ab-541914b26ff9, name: python3
+[I 09:35:30.323 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:38:27.404 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:38:27.723 NotebookApp] Kernel restarted: e2ab1d45-d124-4fab-83ab-541914b26ff9
+[I 09:38:27.740 NotebookApp] Restoring connection for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:38:27.740 NotebookApp] Replaying 3 buffered messages
+[I 09:38:33.602 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:40:33.601 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:42:33.602 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:44:26.552 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:44:27.069 NotebookApp] Kernel restarted: e2ab1d45-d124-4fab-83ab-541914b26ff9
+[I 09:44:27.080 NotebookApp] Restoring connection for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:44:27.080 NotebookApp] Replaying 3 buffered messages
+[I 09:44:33.589 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:45:17.730 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:45:18.046 NotebookApp] Kernel restarted: e2ab1d45-d124-4fab-83ab-541914b26ff9
+[I 09:45:18.057 NotebookApp] Restoring connection for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:45:18.057 NotebookApp] Replaying 3 buffered messages
+[I 09:46:33.613 NotebookApp] Saving file at /week 5/dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 09:46:51.680 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:46:51.995 NotebookApp] Kernel restarted: e2ab1d45-d124-4fab-83ab-541914b26ff9
+[I 09:46:52.007 NotebookApp] Restoring connection for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:46:52.007 NotebookApp] Replaying 3 buffered messages
+[I 09:48:33.607 NotebookApp] Saving file at /week 5/Matin_Noohnezhad_week_5_intep_approx.ipynb
+[I 09:56:30.084 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
+[I 09:56:37.569 NotebookApp] Kernel shutdown: e2ab1d45-d124-4fab-83ab-541914b26ff9

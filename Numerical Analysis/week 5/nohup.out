@@ -168,3 +168,50 @@
 [I 14:11:13.563 NotebookApp] Saving file at /dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
 [I 14:11:46.507 NotebookApp] Saving file at /dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
 [I 14:11:50.809 NotebookApp] Saving file at /dH-sxG6JEemSphKEUWYCag_009f8095bd04482389a3aa1a77de1449_week_5_intep_approx.ipynb
+[I 10:02:56.146 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:02:56.147 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:02:56.147 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:02:56.203 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 10:02:56.203 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 10:02:56.205 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 5
+[I 10:02:56.205 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 10:02:56.205 NotebookApp] http://localhost:8891/?token=86eddf27739fc49580aefa2b6689700cb01ad7ea4542eea0
+[I 10:02:56.205 NotebookApp]  or http://127.0.0.1:8891/?token=86eddf27739fc49580aefa2b6689700cb01ad7ea4542eea0
+[I 10:02:56.205 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:02:56.247 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-6457-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=86eddf27739fc49580aefa2b6689700cb01ad7ea4542eea0
+     or http://127.0.0.1:8891/?token=86eddf27739fc49580aefa2b6689700cb01ad7ea4542eea0
+[I 10:03:01.924 NotebookApp] Kernel started: ff3cf265-e74b-4686-ac08-cae7d99ee8fc, name: python3
+[I 10:05:01.942 NotebookApp] Saving file at /Matin_Noohnezhad_week_5_intep_approx.ipynb
+[I 10:05:47.442 NotebookApp] Saving file at /Matin_Noohnezhad_week_5_intep_approx.ipynb
+[I 10:05:47.535 NotebookApp] Starting buffering for ff3cf265-e74b-4686-ac08-cae7d99ee8fc:a5d91980aac64e8c8f9d821e813f1ae7
+[I 10:05:49.206 NotebookApp] Kernel shutdown: ff3cf265-e74b-4686-ac08-cae7d99ee8fc
+[I 10:12:35.821 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:12:35.821 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:12:35.822 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:12:35.822 NotebookApp] The port 8891 is already in use, trying another port.
+[I 10:12:35.888 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 10:12:35.888 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 10:12:35.890 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 5
+[I 10:12:35.890 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 10:12:35.890 NotebookApp] http://localhost:8892/?token=0e098bb23f3dd4aead71c45c7cd281129616d5667472f982
+[I 10:12:35.890 NotebookApp]  or http://127.0.0.1:8892/?token=0e098bb23f3dd4aead71c45c7cd281129616d5667472f982
+[I 10:12:35.890 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:12:35.938 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-6967-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/?token=0e098bb23f3dd4aead71c45c7cd281129616d5667472f982
+     or http://127.0.0.1:8892/?token=0e098bb23f3dd4aead71c45c7cd281129616d5667472f982
+[I 10:12:43.541 NotebookApp] Kernel started: 61fd7db8-49c2-438e-96fd-a074fcf44563, name: python3
+[I 10:12:55.589 NotebookApp] Starting buffering for 61fd7db8-49c2-438e-96fd-a074fcf44563:9b1875f65bf04ec88928499d9b533d80
+[I 10:12:55.903 NotebookApp] Kernel restarted: 61fd7db8-49c2-438e-96fd-a074fcf44563
+[I 10:12:55.920 NotebookApp] Restoring connection for 61fd7db8-49c2-438e-96fd-a074fcf44563:9b1875f65bf04ec88928499d9b533d80
+[I 10:12:55.920 NotebookApp] Replaying 3 buffered messages
+[I 10:14:43.562 NotebookApp] Saving file at /Matin_Noohnezhad_week_5_intep_approx.ipynb
+[I 10:53:14.447 NotebookApp] Starting buffering for 61fd7db8-49c2-438e-96fd-a074fcf44563:9b1875f65bf04ec88928499d9b533d80
