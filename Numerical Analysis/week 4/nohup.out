@@ -1,0 +1,386 @@
+[I 10:54:12.656 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:54:12.656 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:54:12.656 NotebookApp] The port 8890 is already in use, trying another port.
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+[I 09:06:23.255 NotebookApp] The port 8888 is already in use, trying another port.
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 09:06:23.527 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 09:06:23.527 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 09:06:23.530 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 4
+[I 09:06:23.530 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:06:23.530 NotebookApp] http://localhost:8889/?token=c1e2add855417cf3f3e5297b81d5892c476c0684a4ae863c
+[I 09:06:23.530 NotebookApp]  or http://127.0.0.1:8889/?token=c1e2add855417cf3f3e5297b81d5892c476c0684a4ae863c
+[I 09:06:23.530 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:06:23.550 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-7604-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=c1e2add855417cf3f3e5297b81d5892c476c0684a4ae863c
+     or http://127.0.0.1:8889/?token=c1e2add855417cf3f3e5297b81d5892c476c0684a4ae863c
+[W 09:06:35.341 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:06:35.787 NotebookApp] Kernel started: d1cf4e9b-e24d-47b0-9aab-c433c587d8a6, name: python3
+[I 09:08:35.776 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 09:08:35.777 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[W 10:20:31.795 NotebookApp] Replacing stale connection: d1cf4e9b-e24d-47b0-9aab-c433c587d8a6:9b6edbafd1fa49f4870cce67f0fc1232
+[I 10:20:36.798 NotebookApp] Starting buffering for d1cf4e9b-e24d-47b0-9aab-c433c587d8a6:9b6edbafd1fa49f4870cce67f0fc1232
+[I 10:20:36.800 NotebookApp] Restoring connection for d1cf4e9b-e24d-47b0-9aab-c433c587d8a6:9b6edbafd1fa49f4870cce67f0fc1232
+[I 14:18:34.314 NotebookApp] Starting buffering for d1cf4e9b-e24d-47b0-9aab-c433c587d8a6:9b6edbafd1fa49f4870cce67f0fc1232
+[C 01:11:27.493 NotebookApp] received signal 15, stopping
+[I 01:11:27.495 NotebookApp] Shutting down 1 kernel
+[I 01:11:27.596 NotebookApp] Kernel shutdown: d1cf4e9b-e24d-47b0-9aab-c433c587d8a6
+[I 01:11:27.597 NotebookApp] Shutting down 0 terminals
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 08:13:58.770 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 08:13:58.770 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 08:13:58.773 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 4
+[I 08:13:58.773 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:13:58.773 NotebookApp] http://localhost:8888/?token=7ca949b00d84a3b49a15c29a592cc4520302ad4b5b8d029e
+[I 08:13:58.774 NotebookApp]  or http://127.0.0.1:8888/?token=7ca949b00d84a3b49a15c29a592cc4520302ad4b5b8d029e
+[I 08:13:58.774 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:13:58.797 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-385388-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=7ca949b00d84a3b49a15c29a592cc4520302ad4b5b8d029e
+     or http://127.0.0.1:8888/?token=7ca949b00d84a3b49a15c29a592cc4520302ad4b5b8d029e
+[W 08:14:06.488 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 08:14:06.922 NotebookApp] Kernel started: 9516de91-4e05-43a0-b075-9dc80caf3d39, name: python3
+[W 08:14:08.386 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:12:06.921 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 09:12:06.921 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:26:06.940 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 09:26:06.941 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:28:06.940 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 09:28:06.941 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:30:06.935 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 09:30:06.935 NotebookApp] Notebook CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb is not trusted
+[I 09:32:06.917 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:34:06.937 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:36:06.935 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:37:53.306 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:40:06.934 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:42:06.937 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:44:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:46:06.935 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:48:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:50:06.936 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:52:06.938 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:54:06.928 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:55:17.295 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:56:06.936 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:58:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:00:06.940 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:02:06.940 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:04:06.930 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:06:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:14:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:16:06.939 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:17:34.084 NotebookApp] Starting buffering for 9516de91-4e05-43a0-b075-9dc80caf3d39:5e48bb4ff1f54500b9041f60405ebed9
+[I 10:17:34.806 NotebookApp] Kernel restarted: 9516de91-4e05-43a0-b075-9dc80caf3d39
+[I 10:17:34.826 NotebookApp] Restoring connection for 9516de91-4e05-43a0-b075-9dc80caf3d39:5e48bb4ff1f54500b9041f60405ebed9
+[I 10:17:34.827 NotebookApp] Replaying 3 buffered messages
+[I 10:17:50.281 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:17:53.901 NotebookApp] Starting buffering for 9516de91-4e05-43a0-b075-9dc80caf3d39:5e48bb4ff1f54500b9041f60405ebed9
+[C 16:59:50.759 NotebookApp] received signal 15, stopping
+[I 16:59:50.762 NotebookApp] Shutting down 1 kernel
+[I 16:59:50.867 NotebookApp] Kernel shutdown: 9516de91-4e05-43a0-b075-9dc80caf3d39
+[I 16:59:50.868 NotebookApp] Shutting down 0 terminals
+[I 09:02:55.988 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:02:55.988 NotebookApp] The port 8889 is already in use, trying another port.
+[I 09:02:55.988 NotebookApp] The port 8890 is already in use, trying another port.
+[I 09:02:55.989 NotebookApp] The port 8891 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 09:02:56.304 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 09:02:56.304 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 09:02:56.307 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 4
+[I 09:02:56.307 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:02:56.307 NotebookApp] http://localhost:8892/?token=8c6330b21fec27623036536643c97506b7a070bfa8691909
+[I 09:02:56.307 NotebookApp]  or http://127.0.0.1:8892/?token=8c6330b21fec27623036536643c97506b7a070bfa8691909
+[I 09:02:56.307 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:02:56.328 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-327395-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/?token=8c6330b21fec27623036536643c97506b7a070bfa8691909
+     or http://127.0.0.1:8892/?token=8c6330b21fec27623036536643c97506b7a070bfa8691909
+[I 09:03:03.407 NotebookApp] Kernel started: c5b55516-7284-4c89-a42e-96f2625f9cfd, name: python3
+[I 09:05:03.407 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:31:03.408 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:31:06.298 NotebookApp] Starting buffering for c5b55516-7284-4c89-a42e-96f2625f9cfd:35723d877614474a88d06ed29db1b20e
+[I 09:35:10.175 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:37:10.173 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:39:10.172 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:23:10.168 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:24:20.726 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:35:10.187 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:37:10.244 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:37:48.883 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:39:10.180 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:41:10.177 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:43:10.178 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:45:10.178 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:47:10.177 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:47:53.279 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 10:55:10.179 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:00:40.768 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:04:59.184 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:07:10.179 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:15:10.189 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:17:10.187 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:18:10.087 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:29:10.196 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:30:35.641 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:31:09.698 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:31:10.219 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:33:10.239 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:35:10.241 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:37:10.242 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:39:10.243 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:41:10.240 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:43:10.238 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:45:10.241 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:47:10.239 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:49:10.240 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:51:10.240 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 11:59:10.244 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:01:10.245 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:03:10.241 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:05:10.244 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:06:19.299 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:06:28.299 NotebookApp] Starting buffering for c5b55516-7284-4c89-a42e-96f2625f9cfd:dfa1225f71a443278d457485cdd8461d
+[I 12:06:29.120 NotebookApp] Kernel restarted: c5b55516-7284-4c89-a42e-96f2625f9cfd
+[I 12:06:29.134 NotebookApp] Restoring connection for c5b55516-7284-4c89-a42e-96f2625f9cfd:dfa1225f71a443278d457485cdd8461d
+[I 12:06:29.134 NotebookApp] Replaying 3 buffered messages
+[I 12:07:10.243 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:07:54.271 NotebookApp] Starting buffering for c5b55516-7284-4c89-a42e-96f2625f9cfd:dfa1225f71a443278d457485cdd8461d
+[I 12:07:54.691 NotebookApp] Kernel restarted: c5b55516-7284-4c89-a42e-96f2625f9cfd
+[I 12:07:54.705 NotebookApp] Restoring connection for c5b55516-7284-4c89-a42e-96f2625f9cfd:dfa1225f71a443278d457485cdd8461d
+[I 12:07:54.705 NotebookApp] Replaying 3 buffered messages
+[I 12:08:08.519 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:08:09.227 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 12:08:11.350 NotebookApp] Starting buffering for c5b55516-7284-4c89-a42e-96f2625f9cfd:dfa1225f71a443278d457485cdd8461d
+[C 08:29:47.225 NotebookApp] received signal 15, stopping
+[I 08:29:47.226 NotebookApp] Shutting down 1 kernel
+[I 08:29:47.339 NotebookApp] Kernel shutdown: c5b55516-7284-4c89-a42e-96f2625f9cfd
+[I 08:29:47.339 NotebookApp] Shutting down 0 terminals
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 08:47:41.104 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 08:47:41.104 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 08:47:41.108 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 4
+[I 08:47:41.108 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:47:41.108 NotebookApp] http://localhost:8888/?token=f3ee091a4e487cd63d92064a31ab54c63f8e658790bbfee6
+[I 08:47:41.108 NotebookApp]  or http://127.0.0.1:8888/?token=f3ee091a4e487cd63d92064a31ab54c63f8e658790bbfee6
+[I 08:47:41.108 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:47:41.135 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-5510-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f3ee091a4e487cd63d92064a31ab54c63f8e658790bbfee6
+     or http://127.0.0.1:8888/?token=f3ee091a4e487cd63d92064a31ab54c63f8e658790bbfee6
+[I 08:47:45.645 NotebookApp] Kernel started: 38c768f3-4814-437b-addc-ddf705162de1, name: python3
+[I 09:21:45.640 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:23:45.650 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:25:45.649 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:27:45.663 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:28:23.238 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:23.652 NotebookApp] Kernel restarted: 38c768f3-4814-437b-addc-ddf705162de1
+[I 09:28:24.469 NotebookApp] Kernel restarted: 38c768f3-4814-437b-addc-ddf705162de1
+[I 09:28:24.480 NotebookApp] Restoring connection for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:24.480 NotebookApp] Replaying 9 buffered messages
+[W 09:28:24.487 NotebookApp] Replacing stale connection: 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:24.488 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:24.489 NotebookApp] Restoring connection for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:24.497 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:25.516 NotebookApp] Restoring connection for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 09:28:25.517 NotebookApp] Replaying 6 buffered messages
+[I 09:29:45.658 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:31:45.653 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:33:45.669 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:35:45.646 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:37:45.656 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:41:45.656 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:43:45.648 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:45:45.644 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:47:45.644 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:49:45.641 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 09:51:45.648 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:03:45.675 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:05:45.675 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:07:45.690 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:09:45.680 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:11:45.680 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:12:51.771 NotebookApp] Kernel interrupted: 38c768f3-4814-437b-addc-ddf705162de1
+[I 13:13:00.432 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 13:13:00.850 NotebookApp] Kernel restarted: 38c768f3-4814-437b-addc-ddf705162de1
+[I 13:13:00.869 NotebookApp] Restoring connection for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 13:13:00.869 NotebookApp] Replaying 3 buffered messages
+[I 13:13:45.681 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:17:45.691 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:19:45.681 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:21:45.682 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:23:45.687 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:25:45.695 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:27:45.677 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:29:45.693 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:31:45.685 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:33:45.680 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:34:21.012 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 13:34:21.736 NotebookApp] Kernel restarted: 38c768f3-4814-437b-addc-ddf705162de1
+[I 13:34:21.763 NotebookApp] Restoring connection for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 13:34:21.763 NotebookApp] Replaying 3 buffered messages
+[I 13:34:34.272 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 13:34:37.987 NotebookApp] Starting buffering for 38c768f3-4814-437b-addc-ddf705162de1:c6931b218df7405b99bd606dc5eadf58
+[I 19:40:30.132 NotebookApp] The port 8888 is already in use, trying another port.
+Fail to get yarn configuration. node:events:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:551:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 19:40:30.413 NotebookApp] JupyterLab extension loaded from /opt/anaconda/lib/python3.8/site-packages/jupyterlab
+[I 19:40:30.413 NotebookApp] JupyterLab application directory is /opt/anaconda/share/jupyter/lab
+[I 19:40:30.416 NotebookApp] Serving notebooks from local directory: /home/matin/coursera/Numerical Analysis/week 4
+[I 19:40:30.416 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 19:40:30.416 NotebookApp] http://localhost:8889/?token=ffeb2f24054b779c11e9f20beb69e1dedc077067c4fa4ed9
+[I 19:40:30.416 NotebookApp]  or http://127.0.0.1:8889/?token=ffeb2f24054b779c11e9f20beb69e1dedc077067c4fa4ed9
+[I 19:40:30.416 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:40:30.438 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-74030-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=ffeb2f24054b779c11e9f20beb69e1dedc077067c4fa4ed9
+     or http://127.0.0.1:8889/?token=ffeb2f24054b779c11e9f20beb69e1dedc077067c4fa4ed9
+[I 19:40:38.779 NotebookApp] Kernel started: 2a51a1d3-a7eb-4a70-847d-e49e81be65e9, name: python3
+[I 19:42:38.783 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 19:42:43.575 NotebookApp] Starting buffering for 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[I 19:42:43.887 NotebookApp] Kernel restarted: 2a51a1d3-a7eb-4a70-847d-e49e81be65e9
+[I 19:42:43.910 NotebookApp] Restoring connection for 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[I 19:42:43.910 NotebookApp] Replaying 3 buffered messages
+[I 19:44:38.773 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 19:46:38.768 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[I 19:47:22.540 NotebookApp] Saving file at /CkZggm6JEemE8A7At5Cb6A_a40ad5b04ae54f60818c8d14431c70ea_week_4_iterative_linalg_Jacobi_Seidel_minres.ipynb
+[W 19:47:48.958 NotebookApp] Replacing stale connection: 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[I 19:47:53.966 NotebookApp] Starting buffering for 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[I 19:47:53.969 NotebookApp] Restoring connection for 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[I 19:57:34.543 NotebookApp] Starting buffering for 2a51a1d3-a7eb-4a70-847d-e49e81be65e9:8b73dc7db88f4d4b9952b1be0a648a4c
+[C 19:57:39.807 NotebookApp] received signal 15, stopping
+[C 19:57:39.808 NotebookApp] received signal 15, stopping
+[I 19:57:39.808 NotebookApp] Shutting down 1 kernel
+[I 19:57:39.808 NotebookApp] Shutting down 1 kernel
+[I 19:57:39.909 NotebookApp] Kernel shutdown: 2a51a1d3-a7eb-4a70-847d-e49e81be65e9
+[I 19:57:39.909 NotebookApp] Kernel shutdown: 38c768f3-4814-437b-addc-ddf705162de1
+[I 19:57:39.910 NotebookApp] Shutting down 0 terminals
+[I 19:57:39.910 NotebookApp] Shutting down 0 terminals
+[I 08:06:38.672 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:06:38.744 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 08:06:38.744 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 08:06:38.746 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 4
+[I 08:06:38.746 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 08:06:38.746 NotebookApp] http://localhost:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[I 08:06:38.746 NotebookApp]  or http://127.0.0.1:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[I 08:06:38.746 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:06:38.789 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-63573-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+     or http://127.0.0.1:8889/?token=9597d904e02c646421bf2bba0d97bd8ba68180bb8d7b7995
+[W 08:06:45.658 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:06:46.312 NotebookApp] Kernel started: 40fd7298-4796-4892-bd08-271c49d4957a, name: python3
+[I 08:08:53.553 NotebookApp] Saving file at /Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb
+[W 08:08:53.553 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:08:53.590 NotebookApp] Saving file at /Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb
+[W 08:08:53.590 NotebookApp] Notebook Matin_Noohnezhad_Week_4_jacobi_seidel_minres.ipynb is not trusted
+[I 08:08:53.652 NotebookApp] Starting buffering for 40fd7298-4796-4892-bd08-271c49d4957a:ca9b09b0b6d64d76bd5bb080e70e314f

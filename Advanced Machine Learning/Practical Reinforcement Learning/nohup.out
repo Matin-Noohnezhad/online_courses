@@ -1,0 +1,59 @@
+[I 18:43:10.205 NotebookApp] The port 8888 is already in use, trying another port.
+[I 18:43:10.205 NotebookApp] The port 8889 is already in use, trying another port.
+[I 18:43:10.206 NotebookApp] The port 8890 is already in use, trying another port.
+[I 18:43:10.206 NotebookApp] The port 8891 is already in use, trying another port.
+[I 18:43:10.206 NotebookApp] The port 8892 is already in use, trying another port.
+[I 18:43:10.265 NotebookApp] JupyterLab extension loaded from /home/matin/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 18:43:10.265 NotebookApp] JupyterLab application directory is /home/matin/anaconda3/share/jupyter/lab
+[I 18:43:10.266 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Advanced Machine Learning/Practical Reinforcement Learning
+[I 18:43:10.266 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 18:43:10.266 NotebookApp] http://localhost:8869/?token=2010152c0584ec1b94d46a4c8484b6d9a02a77c905cd30a8
+[I 18:43:10.267 NotebookApp]  or http://127.0.0.1:8869/?token=2010152c0584ec1b94d46a4c8484b6d9a02a77c905cd30a8
+[I 18:43:10.267 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:43:10.322 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-99915-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8869/?token=2010152c0584ec1b94d46a4c8484b6d9a02a77c905cd30a8
+     or http://127.0.0.1:8869/?token=2010152c0584ec1b94d46a4c8484b6d9a02a77c905cd30a8
+[W 18:43:16.737 NotebookApp] Notebook week 2/practice_vi.ipynb is not trusted
+[I 18:43:17.634 NotebookApp] Kernel started: 58356da0-8e09-4dc0-9484-a5f4b43a1bcf, name: python3
+[I 18:43:31.827 NotebookApp] Saving file at /week 2/practice_vi.ipynb
+[W 18:43:31.829 NotebookApp] Notebook week 2/practice_vi.ipynb is not trusted
+[I 18:43:35.371 NotebookApp] Starting buffering for 58356da0-8e09-4dc0-9484-a5f4b43a1bcf:60932d110c25454587677b7c9e47fa82
+[W 18:43:42.126 NotebookApp] Notebook week 1/crossentropy_method.ipynb is not trusted
+[I 18:43:42.648 NotebookApp] Kernel started: 4b19fa45-5096-489a-a6db-9a92c0edb911, name: python3
+[I 18:43:54.807 NotebookApp] Saving file at /week 1/crossentropy_method.ipynb
+[W 18:43:54.809 NotebookApp] Notebook week 1/crossentropy_method.ipynb is not trusted
+[I 18:43:56.901 NotebookApp] Starting buffering for 4b19fa45-5096-489a-a6db-9a92c0edb911:92333b2a360546c1815f7b95d1a9b5ff
+[W 18:43:58.845 NotebookApp] Notebook week 1/deep_crossentropy_method(uncomplete).ipynb is not trusted
+[I 18:43:59.426 NotebookApp] Kernel started: 15769bd9-848d-4c9f-841f-a3616b89bf2c, name: python3
+[I 18:44:16.470 NotebookApp] Saving file at /week 1/deep_crossentropy_method(uncomplete).ipynb
+[W 18:44:16.470 NotebookApp] Notebook week 1/deep_crossentropy_method(uncomplete).ipynb is not trusted
+[I 18:44:25.452 NotebookApp] Kernel shutdown: 4b19fa45-5096-489a-a6db-9a92c0edb911
+[I 18:44:25.763 NotebookApp] Kernel shutdown: 15769bd9-848d-4c9f-841f-a3616b89bf2c
+[W 18:44:26.138 NotebookApp] 404 DELETE /api/sessions/258f6cbb-53cb-4f3f-9f37-881ca64a6311 (127.0.0.1): Session not found: session_id='258f6cbb-53cb-4f3f-9f37-881ca64a6311'
+[W 18:44:26.139 NotebookApp] Session not found: session_id='258f6cbb-53cb-4f3f-9f37-881ca64a6311'
+[W 18:44:26.139 NotebookApp] 404 DELETE /api/sessions/258f6cbb-53cb-4f3f-9f37-881ca64a6311 (127.0.0.1) 1.17ms referer=http://localhost:8869/notebooks/week%201/deep_crossentropy_method(uncomplete).ipynb
+[W 18:44:27.638 NotebookApp] Notebook week 1/gym_interface.ipynb is not trusted
+[I 18:44:27.996 NotebookApp] Kernel started: 6bcd9fa8-fbbc-4b0f-8ba9-9247e422424d, name: python3
+[I 18:44:37.444 NotebookApp] Saving file at /week 1/gym_interface.ipynb
+[W 18:44:37.445 NotebookApp] Notebook week 1/gym_interface.ipynb is not trusted
+[I 18:44:38.961 NotebookApp] Starting buffering for 6bcd9fa8-fbbc-4b0f-8ba9-9247e422424d:26f150d948114d5f966b174a56929a89
+[I 18:44:45.279 NotebookApp] Kernel shutdown: 6bcd9fa8-fbbc-4b0f-8ba9-9247e422424d
+[W 18:44:47.277 NotebookApp] Notebook week 1/crossentropy_method.ipynb is not trusted
+[I 18:44:47.803 NotebookApp] Kernel started: 54603cf0-5ac4-4299-9a96-a9c3b1c257c8, name: python3
+[I 18:44:51.194 NotebookApp] Starting buffering for 54603cf0-5ac4-4299-9a96-a9c3b1c257c8:cd11a2ea1f784452aa0b313eece7af5c
+[W 18:44:52.918 NotebookApp] Notebook week 1/deep_crossentropy_method(uncomplete).ipynb is not trusted
+[I 18:44:53.487 NotebookApp] Kernel started: d74f4d69-cabd-46ec-af07-782299b3aa71, name: python3
+[I 18:44:57.766 NotebookApp] Starting buffering for d74f4d69-cabd-46ec-af07-782299b3aa71:43d5dbbda8ce472aa22cef30654701b7
+[W 18:45:00.391 NotebookApp] Notebook week 1/gym_interface.ipynb is not trusted
+[I 18:45:00.736 NotebookApp] Kernel started: 4b2e1f96-23dd-4ad9-a437-a8d632465bd0, name: python3
+[I 18:45:03.009 NotebookApp] Starting buffering for 4b2e1f96-23dd-4ad9-a437-a8d632465bd0:fe84a3b8c8fa4b29b45c144ba8d9dc9e
+[I 18:45:07.224 NotebookApp] Kernel shutdown: 54603cf0-5ac4-4299-9a96-a9c3b1c257c8
+[I 18:45:07.537 NotebookApp] Kernel shutdown: d74f4d69-cabd-46ec-af07-782299b3aa71
+[I 18:45:07.843 NotebookApp] Kernel shutdown: 4b2e1f96-23dd-4ad9-a437-a8d632465bd0
+[W 18:45:11.909 NotebookApp] Notebook week 2/practice_vi.ipynb is not trusted
+[I 18:45:18.680 NotebookApp] Starting buffering for 58356da0-8e09-4dc0-9484-a5f4b43a1bcf:53f99941ea0245a4907e6cb63f13862c
+[I 18:45:21.118 NotebookApp] Kernel shutdown: 58356da0-8e09-4dc0-9484-a5f4b43a1bcf
