@@ -1,0 +1,22 @@
+[I 10:35:32.690 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:35:32.690 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:35:32.690 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:35:32.692 NotebookApp] Serving notebooks from local directory: /home/matin/codes
+[I 10:35:32.692 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 10:35:32.692 NotebookApp] http://localhost:8891/?token=559e16a37964f10053056ddc0ccf741341b7c9b6c74eeac7
+[I 10:35:32.692 NotebookApp]  or http://127.0.0.1:8891/?token=559e16a37964f10053056ddc0ccf741341b7c9b6c74eeac7
+[I 10:35:32.692 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:35:32.738 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-5288-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=559e16a37964f10053056ddc0ccf741341b7c9b6c74eeac7
+     or http://127.0.0.1:8891/?token=559e16a37964f10053056ddc0ccf741341b7c9b6c74eeac7
+[W 10:35:51.443 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102103532 (127.0.0.1) 6.610000ms referer=http://localhost:8891/notebooks/Numerical%20Analysis/week%206/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 10:35:51.984 NotebookApp] Kernel started: 506d3128-e3a9-49a2-823f-eb5a02644881, name: python3
+[I 10:35:58.530 NotebookApp] Starting buffering for 506d3128-e3a9-49a2-823f-eb5a02644881:57759bd90ea94da08ff32abba2d431f0
+[W 10:36:21.915 NotebookApp] Notebook fp/prop718_sampling.ipynb is not trusted
+[I 10:36:22.181 NotebookApp] Kernel started: 3267d640-373b-4bb9-9976-2e2032dbfdf4, name: python3
+[W 10:36:22.262 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102103532 (127.0.0.1) 1.570000ms referer=http://localhost:8891/notebooks/fp/prop718_sampling.ipynb
+[I 10:36:51.056 NotebookApp] Starting buffering for 3267d640-373b-4bb9-9976-2e2032dbfdf4:0033f4034def440d8583b0d8e1d591d0

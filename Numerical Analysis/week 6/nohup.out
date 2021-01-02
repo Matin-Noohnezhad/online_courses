@@ -73,3 +73,22 @@
 [I 16:20:43.649 NotebookApp] Saving file at /Matin_Noohnezhad_week_6_calculus.ipynb
 [I 16:22:43.644 NotebookApp] Saving file at /Matin_Noohnezhad_week_6_calculus.ipynb
 [I 08:10:51.391 NotebookApp] Starting buffering for fe141b07-e61d-4a58-b3c6-1ae657c0ee31:8cc7ebd4c84c45ca9aafeb4a5f5bdc9f
+[I 10:40:26.415 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:40:26.416 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:40:26.416 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:40:26.416 NotebookApp] The port 8891 is already in use, trying another port.
+[I 10:40:26.418 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis/week 6
+[I 10:40:26.418 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 10:40:26.418 NotebookApp] http://localhost:8892/?token=98491ba7ca1de624cc50aab471d46bc0d94e086cbb9054ad
+[I 10:40:26.418 NotebookApp]  or http://127.0.0.1:8892/?token=98491ba7ca1de624cc50aab471d46bc0d94e086cbb9054ad
+[I 10:40:26.418 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:40:26.461 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-6514-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/?token=98491ba7ca1de624cc50aab471d46bc0d94e086cbb9054ad
+     or http://127.0.0.1:8892/?token=98491ba7ca1de624cc50aab471d46bc0d94e086cbb9054ad
+[I 10:40:30.948 NotebookApp] Kernel started: fd1060bd-57a2-487a-be2c-8588c6fb6aed, name: python3
+[W 10:40:31.045 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102104026 (127.0.0.1) 7.470000ms referer=http://localhost:8892/notebooks/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 10:40:38.808 NotebookApp] Starting buffering for fd1060bd-57a2-487a-be2c-8588c6fb6aed:bbc2d0d465dd4c94ae0d58817be5dc37

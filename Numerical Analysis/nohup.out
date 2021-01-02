@@ -83,3 +83,19 @@ Traceback (most recent call last):
   File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
     sock.bind(sockaddr)
 OSError: [Errno 99] Cannot assign requested address
+[I 10:33:22.248 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:33:22.250 NotebookApp] Serving notebooks from local directory: /home/matin/codes/Numerical Analysis
+[I 10:33:22.250 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 10:33:22.250 NotebookApp] http://localhost:8889/?token=bc28f6ddbee3079f861981454428ef4e85127a5d221015dd
+[I 10:33:22.250 NotebookApp]  or http://127.0.0.1:8889/?token=bc28f6ddbee3079f861981454428ef4e85127a5d221015dd
+[I 10:33:22.250 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:33:22.293 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-3965-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=bc28f6ddbee3079f861981454428ef4e85127a5d221015dd
+     or http://127.0.0.1:8889/?token=bc28f6ddbee3079f861981454428ef4e85127a5d221015dd
+[I 10:33:28.042 NotebookApp] Kernel started: ddb4a5b3-ad70-484a-a7d3-d9b015a29f51, name: python3
+[W 10:33:28.118 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102103322 (127.0.0.1) 7.650000ms referer=http://localhost:8889/notebooks/week%206/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 10:33:33.848 NotebookApp] Starting buffering for ddb4a5b3-ad70-484a-a7d3-d9b015a29f51:b105e5275088407490f448e71018b8f6
