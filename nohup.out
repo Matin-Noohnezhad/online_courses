@@ -20,3 +20,160 @@
 [I 10:36:22.181 NotebookApp] Kernel started: 3267d640-373b-4bb9-9976-2e2032dbfdf4, name: python3
 [W 10:36:22.262 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102103532 (127.0.0.1) 1.570000ms referer=http://localhost:8891/notebooks/fp/prop718_sampling.ipynb
 [I 10:36:51.056 NotebookApp] Starting buffering for 3267d640-373b-4bb9-9976-2e2032dbfdf4:0033f4034def440d8583b0d8e1d591d0
+[I 22:47:29.783 NotebookApp] The port 8888 is already in use, trying another port.
+[I 22:47:29.783 NotebookApp] The port 8889 is already in use, trying another port.
+[I 22:47:29.783 NotebookApp] The port 8890 is already in use, trying another port.
+[I 22:47:29.783 NotebookApp] The port 8891 is already in use, trying another port.
+[I 22:47:29.784 NotebookApp] The port 8892 is already in use, trying another port.
+[I 22:47:29.785 NotebookApp] Serving notebooks from local directory: /home/matin/codes
+[I 22:47:29.785 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 22:47:29.785 NotebookApp] http://localhost:8950/?token=afe554ee7fe7262ec66a5292ac7fc57c9b797941cebf456d
+[I 22:47:29.785 NotebookApp]  or http://127.0.0.1:8950/?token=afe554ee7fe7262ec66a5292ac7fc57c9b797941cebf456d
+[I 22:47:29.785 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:47:29.826 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-18911-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8950/?token=afe554ee7fe7262ec66a5292ac7fc57c9b797941cebf456d
+     or http://127.0.0.1:8950/?token=afe554ee7fe7262ec66a5292ac7fc57c9b797941cebf456d
+[W 22:47:49.288 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210102224729 (127.0.0.1) 6.340000ms referer=http://localhost:8950/notebooks/Numerical%20Analysis/week%206/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 22:47:49.834 NotebookApp] Kernel started: cfea1573-2624-4488-85f0-3de8524912fa, name: python3
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1861, in _completions
+    matched_text, matches, matches_origin, jedi_matches = self._complete(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 2029, in _complete
+    completions = self._jedi_matches(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1373, in _jedi_matches
+    interpreter = jedi.Interpreter(
+  File "/home/matin/.local/lib/python3.8/site-packages/jedi/api/__init__.py", line 725, in __init__
+    super().__init__(code, environment=environment,
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1861, in _completions
+    matched_text, matches, matches_origin, jedi_matches = self._complete(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 2029, in _complete
+    completions = self._jedi_matches(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1373, in _jedi_matches
+    interpreter = jedi.Interpreter(
+  File "/home/matin/.local/lib/python3.8/site-packages/jedi/api/__init__.py", line 725, in __init__
+    super().__init__(code, environment=environment,
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1861, in _completions
+    matched_text, matches, matches_origin, jedi_matches = self._complete(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 2029, in _complete
+    completions = self._jedi_matches(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1373, in _jedi_matches
+    interpreter = jedi.Interpreter(
+  File "/home/matin/.local/lib/python3.8/site-packages/jedi/api/__init__.py", line 725, in __init__
+    super().__init__(code, environment=environment,
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1861, in _completions
+    matched_text, matches, matches_origin, jedi_matches = self._complete(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 2029, in _complete
+    completions = self._jedi_matches(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1373, in _jedi_matches
+    interpreter = jedi.Interpreter(
+  File "/home/matin/.local/lib/python3.8/site-packages/jedi/api/__init__.py", line 725, in __init__
+    super().__init__(code, environment=environment,
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/matin/.local/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/matin/.local/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1861, in _completions
+    matched_text, matches, matches_origin, jedi_matches = self._complete(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 2029, in _complete
+    completions = self._jedi_matches(
+  File "/home/matin/.local/lib/python3.8/site-packages/IPython/core/completer.py", line 1373, in _jedi_matches
+    interpreter = jedi.Interpreter(
+  File "/home/matin/.local/lib/python3.8/site-packages/jedi/api/__init__.py", line 725, in __init__
+    super().__init__(code, environment=environment,
+TypeError: __init__() got an unexpected keyword argument 'column'
+[I 22:49:49.854 NotebookApp] Saving file at /Numerical Analysis/week 6/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 22:51:49.835 NotebookApp] Saving file at /Numerical Analysis/week 6/Matin_Noohnezhad_week_6_calculus.ipynb
+[I 22:52:21.102 NotebookApp] Saving file at /Numerical Analysis/week 6/Matin_Noohnezhad_week_6_calculus.ipynb
