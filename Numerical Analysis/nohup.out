@@ -39,3 +39,47 @@
 [I 09:48:33.607 NotebookApp] Saving file at /week 5/Matin_Noohnezhad_week_5_intep_approx.ipynb
 [I 09:56:30.084 NotebookApp] Starting buffering for e2ab1d45-d124-4fab-83ab-541914b26ff9:e5020753e3014b5a801a2e360baea157
 [I 09:56:37.569 NotebookApp] Kernel shutdown: e2ab1d45-d124-4fab-83ab-541914b26ff9
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
+Traceback (most recent call last):
+  File "/opt/anaconda/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/opt/anaconda/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 844, in launch_instance
+    app.initialize(argv)
+  File "/opt/anaconda/lib/python3.8/site-packages/traitlets/config/application.py", line 87, in inner
+    return method(app, *args, **kwargs)
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1711, in init_webapp
+    success = self._bind_http_server()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1718, in _bind_http_server
+    return self._bind_http_server_unix() if self.sock else self._bind_http_server_tcp()
+  File "/opt/anaconda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1744, in _bind_http_server_tcp
+    self.http_server.listen(port, self.ip)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/opt/anaconda/lib/python3.8/site-packages/tornado/netutil.py", line 174, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 99] Cannot assign requested address
