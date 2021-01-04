@@ -191,3 +191,30 @@ Emitted 'error' event on ReadStream instance at:
 [W 20:17:40.304 NotebookApp] Notebook prop718_sampling.ipynb is not trusted
 [I 20:17:40.583 NotebookApp] Kernel started: 88aa0328-7cd6-4baf-8bc9-eccb67f2c986, name: python3
 [W 20:17:40.714 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104201735 (127.0.0.1) 10.850000ms referer=http://localhost:8889/notebooks/prop718_sampling.ipynb
+[I 20:18:27.764 NotebookApp] Starting buffering for 88aa0328-7cd6-4baf-8bc9-eccb67f2c986:54dc264b3ff24b7484b1050fec5eee6a
+[I 20:18:30.978 NotebookApp] Starting buffering for 052c3b60-a45a-45b8-a0b2-a95dc4034b80:9364c5b1ee34472793265fce4110dbfe
+[I 21:30:22.406 NotebookApp] The port 8888 is already in use, trying another port.
+[I 21:30:22.406 NotebookApp] The port 8889 is already in use, trying another port.
+[I 21:30:22.408 NotebookApp] Serving notebooks from local directory: /home/matin/codes/fp
+[I 21:30:22.408 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 21:30:22.408 NotebookApp] http://localhost:8890/?token=1d6dc13cb8649679edab0594c81f999ee39ac18137175686
+[I 21:30:22.408 NotebookApp]  or http://127.0.0.1:8890/?token=1d6dc13cb8649679edab0594c81f999ee39ac18137175686
+[I 21:30:22.408 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:30:22.449 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-12457-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=1d6dc13cb8649679edab0594c81f999ee39ac18137175686
+     or http://127.0.0.1:8890/?token=1d6dc13cb8649679edab0594c81f999ee39ac18137175686
+[W 21:30:26.033 NotebookApp] Notebook prop717_CNN.ipynb is not trusted
+[I 21:30:26.303 NotebookApp] Kernel started: 715f3ee5-a3a2-4e36-bbb3-f16f259b9a44, name: python3
+[W 21:30:26.401 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104213022 (127.0.0.1) 11.570000ms referer=http://localhost:8890/notebooks/prop717_CNN.ipynb
+[I 21:30:30.604 NotebookApp] Starting buffering for 715f3ee5-a3a2-4e36-bbb3-f16f259b9a44:42fb97c83773496c86f6610695bf7bd4
+[W 21:30:32.480 NotebookApp] Notebook prop716.ipynb is not trusted
+[I 21:30:32.747 NotebookApp] Kernel started: 68c6e6c8-4b45-4cc4-a09e-b9010c2ba261, name: python3
+[W 21:30:32.852 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104213022 (127.0.0.1) 1.940000ms referer=http://localhost:8890/notebooks/prop716.ipynb
+[I 21:30:36.097 NotebookApp] Starting buffering for 68c6e6c8-4b45-4cc4-a09e-b9010c2ba261:5fe335fd4e894da48c814e0b3484f76d
+[W 21:30:38.037 NotebookApp] Notebook prop713(old).ipynb is not trusted
+[I 21:30:38.340 NotebookApp] Kernel started: 55fc729b-902e-4a84-b007-089c63b6a078, name: python3
+[W 21:30:38.364 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104213022 (127.0.0.1) 3.540000ms referer=http://localhost:8890/notebooks/prop713(old).ipynb
