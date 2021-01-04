@@ -160,3 +160,34 @@ Emitted 'error' event on ReadStream instance at:
         http://localhost:8888/?token=fd8eb37c17c12056ad86c4339d8d87576abcf0dfa61d9bed
      or http://127.0.0.1:8888/?token=fd8eb37c17c12056ad86c4339d8d87576abcf0dfa61d9bed
 >>>>>>> refs/remotes/origin/master
+[I 19:46:25.564 NotebookApp] Serving notebooks from local directory: /home/matin/codes/fp
+[I 19:46:25.564 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 19:46:25.564 NotebookApp] http://localhost:8888/?token=460612d5a79d9d65867424275af7a1f77974e81dc026b4f0
+[I 19:46:25.564 NotebookApp]  or http://127.0.0.1:8888/?token=460612d5a79d9d65867424275af7a1f77974e81dc026b4f0
+[I 19:46:25.564 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:46:25.609 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-10121-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=460612d5a79d9d65867424275af7a1f77974e81dc026b4f0
+     or http://127.0.0.1:8888/?token=460612d5a79d9d65867424275af7a1f77974e81dc026b4f0
+[W 19:46:29.718 NotebookApp] Notebook prop718_sampling.ipynb is not trusted
+[I 19:46:30.000 NotebookApp] Kernel started: 052c3b60-a45a-45b8-a0b2-a95dc4034b80, name: python3
+[W 19:46:30.126 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104194625 (127.0.0.1) 12.810000ms referer=http://localhost:8888/notebooks/prop718_sampling.ipynb
+[I 20:17:35.392 NotebookApp] The port 8888 is already in use, trying another port.
+[I 20:17:35.393 NotebookApp] Serving notebooks from local directory: /home/matin/codes/fp
+[I 20:17:35.394 NotebookApp] Jupyter Notebook 6.1.6 is running at:
+[I 20:17:35.394 NotebookApp] http://localhost:8889/?token=f0ea6b96a99c927b7c884e09d5c044ed9aee583562bd0a09
+[I 20:17:35.394 NotebookApp]  or http://127.0.0.1:8889/?token=f0ea6b96a99c927b7c884e09d5c044ed9aee583562bd0a09
+[I 20:17:35.394 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:17:35.434 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/matin/.local/share/jupyter/runtime/nbserver-11234-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=f0ea6b96a99c927b7c884e09d5c044ed9aee583562bd0a09
+     or http://127.0.0.1:8889/?token=f0ea6b96a99c927b7c884e09d5c044ed9aee583562bd0a09
+[W 20:17:40.304 NotebookApp] Notebook prop718_sampling.ipynb is not trusted
+[I 20:17:40.583 NotebookApp] Kernel started: 88aa0328-7cd6-4baf-8bc9-eccb67f2c986, name: python3
+[W 20:17:40.714 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210104201735 (127.0.0.1) 10.850000ms referer=http://localhost:8889/notebooks/prop718_sampling.ipynb
