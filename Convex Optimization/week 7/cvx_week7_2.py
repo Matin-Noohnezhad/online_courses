@@ -2,6 +2,7 @@ import numpy as np
 from scipy.stats import norm
 import cvxpy as cp
 import matplotlib.pyplot as plt
+from matplotlib import cm
 # import plotly.graph_objects as go
 
 mu1 = 8
@@ -42,4 +43,15 @@ result = prob.solve()
 print(result)
 
 P = P.value
-x = np.meshgrid(r1p, r2p, P.T)
+X = np.linspace(r_min,r_max,n)
+Y = np.linspace(r_min,r_max,n)
+X, Y = np.meshgrid(X, Y)
+Z = P
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
+                       linewidth=0, antialiased=False)
+plt.show()
+plt.contourf(X, Y, Z, 20, cmap='RdGy')
+plt.show()
