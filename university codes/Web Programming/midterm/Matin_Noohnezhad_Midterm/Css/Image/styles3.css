@@ -1,0 +1,29 @@
+div#dmain{
+    width: 80%;
+    border: 6px solid black;
+    height: 350px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+div#d1{
+    width: 70%;
+    border: 4px solid yellow;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+.d2{
+    height: 33%;
+    border: 1px solid lightpink;
+}
+.d3 , .d4 , .d5{
+    float: right;
+    width: 33%;
+    height: 100%;
+    border: 1px solid lightpink;
+}
+p{
+    text-align: center;
+}

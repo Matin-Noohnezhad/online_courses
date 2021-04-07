@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/icon_iv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/colorAccent"
+        android:scaleType="fitXY"
+        tools:src="@drawable/exit" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/task_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#5454A7"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/task_desc_tv"
+            app:layout_constraintLeft_toLeftOf="@id/cl_layout"
+            app:layout_constraintTop_toTopOf="@id/cl_layout"
+            tools:text="Pay Bills" />
+
+        <ImageView
+            android:id="@+id/delete_task_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/delete_task"
+            app:layout_constraintRight_toRightOf="@id/cl_layout"
+            app:layout_constraintTop_toTopOf="@id/cl_layout" />
+
+        <TextView
+            android:id="@+id/task_desc_tv"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="@id/cl_layout"
+            app:layout_constraintTop_toBottomOf="@id/task_title_tv"
+            tools:text="my task description" />
+
+        <TextView
+            android:id="@+id/task_date_tv"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="@id/cl_layout"
+            app:layout_constraintTop_toBottomOf="@id/task_desc_tv"
+            tools:text="2019/12/02" />
+
+        <TextView
+            android:id="@+id/task_hour_tv"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="@id/cl_layout"
+            app:layout_constraintTop_toBottomOf="@id/task_date_tv"
+            tools:text="10:00" />
+
+        <ImageView
+            android:id="@+id/go_to_archive_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/go_to_archive"
+            app:layout_constraintBottom_toBottomOf="@id/cl_layout"
+            app:layout_constraintRight_toRightOf="@id/cl_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

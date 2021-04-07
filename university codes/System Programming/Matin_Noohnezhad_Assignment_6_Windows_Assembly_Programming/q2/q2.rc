@@ -1,0 +1,12 @@
+
+// Constants for menu
+#define IDM_OPEN 1
+
+
+FirstMenu MENU
+{
+ POPUP "&File"
+        {
+         MENUITEM "&Open",IDM_OPEN
+        }
+}

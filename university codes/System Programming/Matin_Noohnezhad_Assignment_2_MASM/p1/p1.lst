@@ -1,0 +1,92 @@
+Microsoft (R) Macro Assembler Version 6.11		    06/02/19 02:22:58
+p1.asm							     Page 1 - 1
+
+
+ 0000				codesg segment 'code'
+						assume cs:codesg, ss:codesg, ds:codesg
+						org 100h
+ 0100  EB 07				main:	jmp  prog1		
+ 0102 0000					n1 dw ?
+ 0104 00					n2 db ?
+ 0105 0000					n3 dw ?
+ 0107 0000					n4 dw ?			
+ 0109					prog1 proc near
+ 0109  32 E4					xor ah,ah
+ 010B  8B F0					mov si,ax
+ 010D  D1 E6					shl si,1
+ 010F  03 F0					add si,ax
+ 0111  A2 0104 R				mov n2,al
+ 0114  F7 E0					mul ax
+ 0116  A3 0102 R				mov n1,ax
+ 0119  D1 E0					shl ax,1
+ 011B  8B D8					mov bx,ax
+ 011D  2B DE					sub bx,si
+ 011F  83 C3 06					add bx,6
+ 0122  33 FF					xor di,di
+ 0124  D1 E0					shl ax,1
+ 0126  D1 D7					rcl di,1
+ 0128  8B C8					mov cx,ax
+ 012A  8B F7					mov si,di
+ 012C  8A 16 0104 R				mov dl,n2
+ 0130  32 F6					xor dh,dh
+ 0132  F7 E2					mul dx
+ 0134  89 16 0105 R				mov n3,dx
+ 0138  A3 0107 R				mov n4,ax
+ 013B  A0 0104 R				mov al,n2
+ 013E  32 E4					xor ah,ah
+ 0140  F7 E7					mul di
+ 0142  01 06 0105 R				add n3,ax
+ 0146  A1 0102 R				mov ax,n1
+ 0149  03 C1					add ax,cx
+ 014B  73 03					jnc lbl
+ 014D  83 C6 01					add si,1
+ 0150  8B 3E 0105 R			  lbl:  mov di,n3
+ 0154  8B 0E 0107 R				mov cx,n4
+ 0158  2B C8					sub cx,ax
+ 015A  1B FE					sbb di,si
+ 015C  B8 000C					mov ax,000ch
+ 015F  33 F6					xor si,si
+ 0161  2B C8					sub cx,ax
+ 0163  1B FE					sbb di,si
+ 0165  8B D7					mov dx,di
+ 0167  8B C1					mov ax,cx
+ 0169  F7 F3					div bx
+ 016B  8B D8					mov bx,ax
+ 016D  B8 4C00					mov ax,4c00h
+ 0170  CD 21					int 21h
+ 0172					prog1 endp
+ 0172				codesg ends
+					end main
+Microsoft (R) Macro Assembler Version 6.11		    06/02/19 02:22:58
+p1.asm							     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+codesg . . . . . . . . . . . . .	16 Bit	 0172	  Para	  Private 'CODE'	
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+prog1  . . . . . . . . . . . . .	P Near	 0109	  codesg	Length= 0069 Private
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+lbl  . . . . . . . . . . . . . .	L Near	 0150	  codesg	
+main . . . . . . . . . . . . . .	L Near	 0100	  codesg	
+n1 . . . . . . . . . . . . . . .	Word	 0102	  codesg	
+n2 . . . . . . . . . . . . . . .	Byte	 0104	  codesg	
+n3 . . . . . . . . . . . . . . .	Word	 0105	  codesg	
+n4 . . . . . . . . . . . . . . .	Word	 0107	  codesg	
+
+	   0 Warnings
+	   0 Errors

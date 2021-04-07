@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageActivity">
+
+    <TextView
+        android:id="@+id/app_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/app_name_tv"
+        android:scaleType="fitXY"
+        android:src="@drawable/first_page_pic"
+        app:layout_constraintTop_toBottomOf="@id/app_name_tv" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <ImageView
+        android:id="@+id/due_tasks_iv"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="dueTasksClicked"
+        android:scaleType="fitXY"
+        android:src="@drawable/due_tasks"
+        app:layout_constraintRight_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/image_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/due_tasks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/due_tasks_iv"
+        app:layout_constraintLeft_toLeftOf="@id/due_tasks_iv"
+        app:layout_constraintRight_toRightOf="@id/due_tasks_iv" />
+
+    <ImageView
+        android:id="@+id/export_tasks_iv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/export_tasks"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/image_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="exportTasksClicked"
+        android:text="@string/export_tasks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/export_tasks_iv"
+        app:layout_constraintLeft_toLeftOf="@id/export_tasks_iv"
+        app:layout_constraintRight_toRightOf="@id/export_tasks_iv" />
+
+
+    <ImageView
+        android:id="@+id/import_tasks_iv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/import_tasks"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/export_tasks_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="importTasksClicked"
+        android:text="@string/import_tasks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/import_tasks_iv"
+        app:layout_constraintLeft_toLeftOf="@id/import_tasks_iv"
+        app:layout_constraintRight_toRightOf="@id/import_tasks_iv" />
+
+    <ImageView
+        android:id="@+id/profile_iv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="profileClicked"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_pic"
+        app:layout_constraintRight_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/due_tasks_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/profile"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/profile_iv"
+        app:layout_constraintLeft_toLeftOf="@id/profile_iv"
+        app:layout_constraintRight_toRightOf="@id/profile_iv" />
+
+    <ImageView
+        android:id="@+id/exit_iv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="exitClicked"
+        android:scaleType="fitXY"
+        android:src="@drawable/exit"
+        app:layout_constraintRight_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/profile_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/exit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/exit_iv"
+        app:layout_constraintLeft_toLeftOf="@id/exit_iv"
+        app:layout_constraintRight_toRightOf="@id/exit_iv" />
+
+    <ImageView
+        android:id="@+id/archived_tasks_iv"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="archivedTasksClicked"
+        android:scaleType="fitXY"
+        android:src="@drawable/due_tasks"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/import_tasks_iv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/archived_tasks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/archived_tasks_iv"
+        app:layout_constraintLeft_toLeftOf="@id/archived_tasks_iv"
+        app:layout_constraintRight_toRightOf="@id/archived_tasks_iv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

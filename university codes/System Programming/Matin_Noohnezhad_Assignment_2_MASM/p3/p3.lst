@@ -1,0 +1,109 @@
+Microsoft (R) Macro Assembler Version 6.11		    06/09/19 05:17:53
+p3.asm							     Page 1 - 1
+
+
+ 0000				stackseg segment 'stack'
+ 0000  0020 [					dw 32 dup(?)
+        0000
+       ]
+ 0040				stackseg ends
+ 0000				dataseg1 segment 'data'
+ 0000  0100 [				nouse db 256 dup(?)
+        00
+       ]
+ 0100  0100 [				a db 256 dup(?)	
+        00
+       ]
+ 0200				dataseg1 ends
+ 0000				dataseg2 segment 'data'
+ 0000  0100 [				nouse2 db 256 dup(?)
+        00
+       ]
+ 0100  0100 [				nouse3 db 256 dup(?)
+        00
+       ]
+ 0200  0100 [				nouse4 db 256 dup(?)
+        00
+       ]
+ 0300  0020 [				b db 32 dup(?)
+        00
+       ]
+ 0320				dataseg2 ends
+ 0000				codeseg segment 'code'
+ 0000					main proc FAR
+ 0000  BF 00FF					mov di,00ffh
+ 0003  B9 0100					mov cx,0100h
+ 0006  BA 0300					mov dx,0300h
+ 0009  8B D9				start:	mov bx,cx
+						assume ds:dataseg1, ss:stackseg, cs:codeseg
+ 000B  B8 ---- R				mov ax,dataseg1
+ 000E  8E D8					mov ds,ax
+ 0010  8A 07					mov al,[bx]
+						assume ds:dataseg2, ss:stackseg, cs:codeseg
+ 0012  B8 ---- R				mov ax,dataseg2
+ 0015  8E D8					mov ds,ax
+ 0017  8B DA					mov bx,dx
+ 0019  3A 07					cmp al,[bx]
+ 001B  75 11					jnz lbl
+ 001D  42					inc dx
+ 001E  81 FF 00FF				cmp di,00ffh
+ 0022  74 02					jz lbl3
+ 0024  EB 0E					jmp lbl2
+ 0026  8B F9				lbl3:	mov di,cx
+ 0028  81 EF 0100				sub di,0100h
+ 002C  EB 06					jmp lbl2
+ 002E  BA 0300				lbl:	mov dx,300h
+ 0031  BF 00FF					mov di,00ffh
+ 0034  41				lbl2:	inc cx
+ 0035  81 FA 0321				cmp dx,0321h
+ 0039  74 08					jz end1
+ 003B  81 F9 0201				cmp cx,0201h
+ 003F  74 02					jz end1
+ 0041  EB C6					jmp start
+ 0043  8B C7				end1:	mov ax,di
+ 0045  B8 4C00					mov ax,4c00h
+ 0048  CD 21					int 21h
+ 004A					main endp
+ 004A				codeseg ends
+					end main
+Microsoft (R) Macro Assembler Version 6.11		    06/09/19 05:17:53
+p3.asm							     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+codeseg  . . . . . . . . . . . .	16 Bit	 004A	  Para	  Private 'CODE'	
+dataseg1 . . . . . . . . . . . .	16 Bit	 0200	  Para	  Private 'DATA'	
+dataseg2 . . . . . . . . . . . .	16 Bit	 0320	  Para	  Private 'DATA'	
+stackseg . . . . . . . . . . . .	16 Bit	 0040	  Para	  Private 'STACK'	 
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Far	 0000	  codeseg	Length= 004A Private
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+a  . . . . . . . . . . . . . . .	Byte	 0100	  dataseg1	
+b  . . . . . . . . . . . . . . .	Byte	 0300	  dataseg2	
+end1 . . . . . . . . . . . . . .	L Near	 0043	  codeseg	
+lbl2 . . . . . . . . . . . . . .	L Near	 0034	  codeseg	
+lbl3 . . . . . . . . . . . . . .	L Near	 0026	  codeseg	
+lbl  . . . . . . . . . . . . . .	L Near	 002E	  codeseg	
+nouse2 . . . . . . . . . . . . .	Byte	 0000	  dataseg2	
+nouse3 . . . . . . . . . . . . .	Byte	 0100	  dataseg2	
+nouse4 . . . . . . . . . . . . .	Byte	 0200	  dataseg2	
+nouse  . . . . . . . . . . . . .	Byte	 0000	  dataseg1	
+start  . . . . . . . . . . . . .	L Near	 0009	  codeseg	
+
+	   0 Warnings
+	   0 Errors

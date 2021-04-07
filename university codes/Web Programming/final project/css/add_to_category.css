@@ -1,0 +1,49 @@
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #000da7;
+}
+
+body {
+    background-color: #d2f7fa;
+}
+
+form#myForm {
+    width: 50%;
+    margin: auto;
+    background-color: #ceface;
+    border-radius: 5px;
+}
+
+fieldset {
+    border-color: plum;
+    border-radius: 5px;
+}
+
+input#submit {
+    float: left;
+    font-size: 17px;
+    border-color: #6d6d6d;
+    background: #c9b19f;
+    color: #002700;
+    border-radius: 5px;
+}
+
+input#newCategory {
+    width: 45%;
+    border-radius: 5px;
+}
+
+legend {
+    text-align: center;
+    font-size: 25px;
+    color: #323433;
+}
+p#error{
+    color: red;
+    display: inline-block;
+}
+

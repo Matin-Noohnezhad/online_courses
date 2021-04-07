@@ -1,0 +1,11 @@
+table, td, th {
+    border: 2px solid crimson;
+    border-collapse: collapse;
+    text-align: center;
+}
+#b1{
+    background-color: #6cbbff;
+}
+#b2{
+    background-color: #de964f;
+}

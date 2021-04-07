@@ -1,0 +1,90 @@
+table, td, th {
+    border: 2px solid crimson;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+a.first {
+    text-decoration: none
+}
+
+p {
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    font-family: "2  Badr na";
+    text-align: center;
+}
+
+th {
+    color: darkgreen;
+    background-color: powderblue;
+    font-size: 18px;
+    font-family: "2  Badr na";
+}
+
+td {
+    color: brown;
+    font-size: 18px;
+    font-family: "2  Badr na";
+}
+
+caption {
+    font-size: 24px;
+    font-family: "2  Badr";
+}
+
+li {
+    font-size: 20px;
+    font-family: "2  Compset";
+    color: darkblue;
+    background-color: powderblue;
+    margin: 5px;
+    padding: 5px;
+    display: list-item;
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffbc14;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #fff192;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #eac1ff;
+}

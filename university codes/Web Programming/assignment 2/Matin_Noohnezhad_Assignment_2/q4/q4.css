@@ -1,0 +1,36 @@
+table, td, th {
+    border: 2px solid crimson;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    /*color: darkgreen;*/
+    /*background-color: powderblue;*/
+    /*font-size: 18px;*/
+    font-weight: bold;
+    background-color: white;
+    font-family: "2  Badr na";
+}
+
+td {
+    color: brown;
+    font-size: 18px;
+    font-family: "2  Badr na";
+}
+
+caption {
+    font-size: 24px;
+    font-family: "2  Badr";
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #fff192;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/*body{*/
+/*    background-color: #eac1ff;*/
+/*}*/

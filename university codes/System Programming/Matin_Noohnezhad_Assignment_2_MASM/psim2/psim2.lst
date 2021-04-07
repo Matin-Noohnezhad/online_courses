@@ -1,0 +1,99 @@
+Microsoft (R) Macro Assembler Version 6.11		    06/09/19 15:59:01
+psim2.asm						     Page 1 - 1
+
+
+				.model small
+				.stack 64
+ 0000				.data
+ 0000  0100 [				nouse db 256 dup(?)
+        00
+       ]
+ 0100  0100 [				a db 256 dup(?)
+        00
+       ]
+ 0200  0100 [				nouse2 db 256 dup(?)
+        00
+       ]
+ 0300  0020 [				b db 32 dup(?) 	
+        00
+       ]
+ 0000				.code
+ 0000					main proc far
+ 0000  B8 ---- R				mov ax,@data
+ 0003  8E D8					mov ds,ax
+ 0005  BF 00FF					mov di,00ffh
+ 0008  B9 0100					mov cx,0100h
+ 000B  BA 0300					mov dx,0300h
+ 000E  8B D9				start:	mov bx,cx
+ 0010  8A 07					mov al,[bx]
+ 0012  8B DA					mov bx,dx
+ 0014  3A 07					cmp al,[bx]
+ 0016  75 11					jnz lbl
+ 0018  42					inc dx
+ 0019  81 FF 00FF				cmp di,00ffh
+ 001D  74 02					jz lbl3
+ 001F  EB 0E					jmp lbl2
+ 0021  8B F9				lbl3:	mov di,cx
+ 0023  81 EF 0100				sub di,0100h
+ 0027  EB 06					jmp lbl2
+ 0029  BA 0300				lbl:	mov dx,300h
+ 002C  BF 00FF					mov di,00ffh
+ 002F  41				lbl2:	inc cx
+ 0030  81 FA 0321				cmp dx,0321h
+ 0034  74 08					jz end1
+ 0036  81 F9 0201				cmp cx,0201h
+ 003A  74 02					jz end1
+ 003C  EB D0					jmp start
+ 003E  8B C7				end1:	mov ax,di
+ 0040  B8 4C00					mov ax,4c00h
+ 0043  CD 21					int 21h
+ 0045					main endp
+				end main
+Microsoft (R) Macro Assembler Version 6.11		    06/09/19 15:59:01
+psim2.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+DGROUP . . . . . . . . . . . . .	GROUP
+_DATA  . . . . . . . . . . . . .	16 Bit	 0320	  Word	  Public  'DATA'	
+STACK  . . . . . . . . . . . . .	16 Bit	 0040	  Para	  Stack	  'STACK'	 
+_TEXT  . . . . . . . . . . . . .	16 Bit	 0045	  Word	  Public  'CODE'	
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Far	 0000	  _TEXT	Length= 0045 Private
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 0000h	 
+@DataSize  . . . . . . . . . . .	Number	 0000h	 
+@Interface . . . . . . . . . . .	Number	 0000h	 
+@Model . . . . . . . . . . . . .	Number	 0002h	 
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 DGROUP
+@fardata?  . . . . . . . . . . .	Text   	 FAR_BSS
+@fardata . . . . . . . . . . . .	Text   	 FAR_DATA
+@stack . . . . . . . . . . . . .	Text   	 DGROUP
+a  . . . . . . . . . . . . . . .	Byte	 0100	  _DATA	
+b  . . . . . . . . . . . . . . .	Byte	 0300	  _DATA	
+end1 . . . . . . . . . . . . . .	L Near	 003E	  _TEXT	
+lbl2 . . . . . . . . . . . . . .	L Near	 002F	  _TEXT	
+lbl3 . . . . . . . . . . . . . .	L Near	 0021	  _TEXT	
+lbl  . . . . . . . . . . . . . .	L Near	 0029	  _TEXT	
+nouse2 . . . . . . . . . . . . .	Byte	 0200	  _DATA	
+nouse  . . . . . . . . . . . . .	Byte	 0000	  _DATA	
+start  . . . . . . . . . . . . .	L Near	 000E	  _TEXT	
+
+	   0 Warnings
+	   0 Errors

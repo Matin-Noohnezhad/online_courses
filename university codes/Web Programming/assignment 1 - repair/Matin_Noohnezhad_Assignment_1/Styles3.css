@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("Countryside Personal Use.ttf");
+}
+blockquote{
+    font-family: "CustomFont";
+}

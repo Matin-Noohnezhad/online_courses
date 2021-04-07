@@ -1,0 +1,26 @@
+body {
+    background-color: #d6ffd7;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+input#submit {
+    float: left;
+    font-size: 20px;
+    border-color: #bfbf00;
+    background-color: #fdffd5;
+    color: #000a83;
+}
+
+legend {
+    text-align: center;
+}
+
+p.error {
+    color: red;
+    display: inline-block;
+}

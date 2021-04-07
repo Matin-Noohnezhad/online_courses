@@ -1,0 +1,56 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/TestMain_isim_beh.exe -prj D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/TestMain_beh.prj work.TestMain work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/SignExtend.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/registerFile.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/PC.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Mux_5.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Mux_32.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Mux3to1.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/MEMWB.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/InstructionMemory.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/IFID.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/IDEX.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/HDU.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/ForwardingUnit.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/EXMEM.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/DataMemory.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Control.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/ALUControl.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/ALU.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Add.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/Main.v" into library work
+Analyzing Verilog file "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/TestMain.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module Add
+Compiling module InstructionMemory
+Compiling module IFID
+Compiling module Mux_5
+WARNING:HDLCompiler:1007 - "D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/registerFile.v" Line 73: Element index 32 into register is out of bounds
+Compiling module registerFile
+Compiling module SignExtend
+Compiling module Control
+Compiling module IDEX
+Compiling module Mux_32
+Compiling module ALUControl
+Compiling module Mux3to1
+Compiling module ALU
+Compiling module EXMEM
+Compiling module DataMemory
+Compiling module MEMWB
+Compiling module ForwardingUnit
+Compiling module HDU
+Compiling module Main
+Compiling module TestMain
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable D:/term 5/Computer Architecture Laboratory/week 13- Pipeline CPU Project/Pipeline_CPU_Phase1/TestMain_isim_beh.exe
+Fuse Memory Usage: 28432 KB
+Fuse CPU Usage: 1811 ms

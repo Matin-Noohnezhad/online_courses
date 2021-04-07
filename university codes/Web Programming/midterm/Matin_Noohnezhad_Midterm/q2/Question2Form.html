@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>فرم</title>
+    <link rel="stylesheet" href="../Css/styles2.css">
+</head>
+<body>
+<form name="myForm" onsubmit="return validate3()">
+    <fieldset id="first" style="display: block">
+        <legend>
+            مرحله اول
+        </legend>
+        <br> نام شغل*:<br>
+        <input type="text" name="firstname" required>
+        <br>
+        تصویر پروفایل:<br>
+        <input type="file" name="myFile">
+        <br>
+        شماره موبایل*:<br>
+        <input id="mobile" type="tel" onkeyup="mobileCheckOnType()" name="telephone" pattern="09[0-9]{9}" required>
+        <br>
+        آدرس ایمیل*:<br>
+        <input type="email" name="email" required>
+        <br>
+        <button type="button" class="i" onclick="validate1()">بعدی</button>
+    </fieldset>
+    <fieldset id="second" style="display: none">
+        <legend>مرحله دوم</legend>
+        <br> نوع پروفایل:
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <select name="profile" id="mySelect" onchange="dropdownSelect()">
+            <option value="first">پایه</option>
+            <option value="second">حرفه ای</option>
+            <option value="third">پیشرفته</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <div class="divs"><input type="checkbox" name="goods" value="goods">محصولات<br></div>
+        <div class="divs"><input type="checkbox" name="projects" value="projects">پروژه ها<br></div>
+        <div class="divs"><input type="checkbox" name="onlineSale" value="onlineSale">فروش آنلاین<br></div>
+        <br class="divs">
+        <br class="divs">
+        <br class="divs">
+        <label id="myLabel">قیمت: 50000 تومان</label>
+        <button type="button" class="i" onclick="validate2()">بعدی</button>
+    </fieldset>
+    <fieldset id="third" style="display: none">
+        <h1>قاونین و مقررات</h1>
+        <p>لورم ایپسوم یا طرح نما یه متن آزمایشی و بی معنی در صنعت چاپ، صفحه ارایی و صنعت گرافیک گفته میشود که نکات جالبی در بر دارد و همواره باید به این نکات توجه نمون. همینکه توجه کنیم کافی است و نیازی و به توجه بیش از اندازه و سفسته گونه که باعث مغلطه و تبکیت مغلطی میشود ندارد.لورم ایپسوم یا طرح نما یه متن آزمایشی و بی معنی در صنعت چاپ، صفحه ارایی و صنعت گرافیک گفته میشود که نکات جالبی در بر دارد و همواره باید به این نکات توجه نمون. همینکه توجه کنیم کافی است و نیازی و به توجه بیش از اندازه و سفسته گونه که باعث مغلطه و تبکیت مغلطی میشود ندارد.لورم ایپسوم یا طرح نما یه متن آزمایشی و بی معنی در صنعت چاپ، صفحه ارایی و صنعت گرافیک گفته میشود که نکات جالبی در بر دارد و همواره باید به این نکات توجه نمون. همینکه توجه کنیم کافی است و نیازی و به توجه بیش از اندازه و سفسته گونه که باعث مغلطه و تبکیت مغلطی میشود ندارد. </p>
+        <div ><input id="myCheck" type="checkbox" name="accept" value="accept">قوانین و مقررات را قبول دارم.<br></div>
+        <br>
+        <p id="lastP" style="color: #ff7569; display: none">شما باید قوانین و مقررات را قبول کنید.</p>
+        <br>
+        <input class="i" type="submit" value="ذخیره">
+    </fieldset>
+
+</form>
+
+
+<script src="../Js/js2.js"></script>
+</body>
+</html>

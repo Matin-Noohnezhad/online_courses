@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 8</title>
+    <link rel="stylesheet" href="q8.css">
+</head>
+<body>
+
+<div class="tab">
+    <button id="b1">flower</button>
+    <button id="b2">car</button>
+    <button id="b3">house</button>
+</div>
+<div id="flower" class="tabcontent">
+    <img src="Flowers.jpg">
+</div>
+
+<div id="car" class="tabcontent">
+    <img src="car.jpg">
+</div>
+
+<div id="house" class="tabcontent">
+    <img src="house.jpg">
+</div>
+
+<script src="q8.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+   $("#b1").click(function () {
+       func('flower');
+   });
+    $("#b2").click(function () {
+        func('car');
+    });
+    $("#b3").click(function () {
+        func('house');
+   });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+Microsoft (R) Macro Assembler Version 6.11		    06/10/19 07:38:14
+psim6.asm						     Page 1 - 1
+
+
+				.model small
+				.stack 32
+ 0000				.data
+ 0000  010A [				a db 266 dup(?)
+        00
+       ]
+
+ 0000				.code
+ 0000					main proc far	
+						;assume ss:sseg,cs:cseg,ds:dseg
+ 0000  B8 ---- R				mov ax,@data
+ 0003  8E D8					mov ds,ax
+ 0005  BB 0109					mov bx,0109h
+ 0008  8A 07					mov al,[bx]
+ 000A  4B					dec bx
+ 000B  8A 27					mov ah,[bx]
+ 000D  4B					dec bx
+ 000E  8A 0F					mov cl,[bx]
+ 0010  4B					dec bx
+ 0011  8A 2F					mov ch,[bx]
+ 0013  D1 E0					shl ax,1
+ 0015  D1 D1					rcl cx,1
+ 0017  BB 0109					mov bx,0109h
+ 001A  88 07					mov [bx],al
+ 001C  4B					dec bx
+ 001D  88 27					mov [bx],ah		
+ 001F  4B					dec bx
+ 0020  88 0F					mov [bx],cl		
+ 0022  4B					dec bx
+ 0023  88 2F					mov [bx],ch		
+ 0025  BB 0105					mov bx,0105h
+ 0028  8A 07					mov al,[bx]
+ 002A  4B					dec bx
+ 002B  8A 27					mov ah,[bx]
+ 002D  4B					dec bx
+ 002E  8A 0F					mov cl,[bx]
+ 0030  4B					dec bx
+ 0031  8A 2F					mov ch,[bx]
+ 0033  D1 D0					rcl ax,1
+ 0035  D1 D1					rcl cx,1
+ 0037  BB 0105					mov bx,0105h
+ 003A  88 07					mov [bx],al
+ 003C  4B					dec bx
+ 003D  88 27					mov [bx],ah		
+ 003F  4B					dec bx
+ 0040  88 0F					mov [bx],cl		
+ 0042  4B					dec bx
+ 0043  88 2F					mov [bx],ch		
+ 0045  BB 0101					mov bx,0101h
+ 0048  8A 07					mov al,[bx]
+ 004A  4B					dec bx
+ 004B  8A 27					mov ah,[bx]
+ 004D  D1 D0					rcl ax,1
+ 004F  BB 0101					mov bx,0101h
+ 0052  88 07					mov [bx],al
+ 0054  4B					dec bx
+ 0055  88 27					mov [bx],ah
+ 0057  B8 4C00					mov ax,4c00h
+ 005A  CD 21					int 21h
+ 005C					main endp
+				end main
+Microsoft (R) Macro Assembler Version 6.11		    06/10/19 07:38:14
+psim6.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+DGROUP . . . . . . . . . . . . .	GROUP
+_DATA  . . . . . . . . . . . . .	16 Bit	 010A	  Word	  Public  'DATA'	
+STACK  . . . . . . . . . . . . .	16 Bit	 0020	  Para	  Stack	  'STACK'	 
+_TEXT  . . . . . . . . . . . . .	16 Bit	 005C	  Word	  Public  'CODE'	
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Far	 0000	  _TEXT	Length= 005C Private
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 0000h	 
+@DataSize  . . . . . . . . . . .	Number	 0000h	 
+@Interface . . . . . . . . . . .	Number	 0000h	 
+@Model . . . . . . . . . . . . .	Number	 0002h	 
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 DGROUP
+@fardata?  . . . . . . . . . . .	Text   	 FAR_BSS
+@fardata . . . . . . . . . . . .	Text   	 FAR_DATA
+@stack . . . . . . . . . . . . .	Text   	 DGROUP
+a  . . . . . . . . . . . . . . .	Byte	 0000	  _DATA	
+
+	   0 Warnings
+	   0 Errors

@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+#i1 {
+    width: 100%;
+}
+
+#i2 {
+    width: 25%;
+}

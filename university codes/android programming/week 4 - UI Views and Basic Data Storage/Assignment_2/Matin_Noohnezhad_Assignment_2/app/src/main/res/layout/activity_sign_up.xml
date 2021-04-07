@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sign_up_tv"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#2196F3"
+                android:gravity="center"
+                android:text="@string/sign_up_text"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/username_et"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:inputType="text"
+                android:hint="@string/user_name"
+                app:layout_constraintBottom_toTopOf="@id/conf_pass_et"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/pass_et"
+                app:layout_constraintTop_toBottomOf="@id/sign_up_tv" />
+
+            <EditText
+                android:id="@+id/pass_et"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                app:layout_constraintBottom_toTopOf="@id/conf_pass_et"
+                app:layout_constraintLeft_toRightOf="@id/username_et"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sign_up_tv" />
+
+            <EditText
+                android:id="@+id/conf_pass_et"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:inputType="textPassword"
+                android:hint="@string/confirm_pass"
+                app:layout_constraintBottom_toTopOf="@id/email_et"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/username_et" />
+
+            <EditText
+                android:id="@+id/email_et"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email_address"
+                app:layout_constraintBottom_toTopOf="@id/mobile_no_et"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/conf_pass_et" />
+
+            <EditText
+                android:id="@+id/mobile_no_et"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:hint="@string/mobile_no"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/email_et" />
+
+            <TextView
+                android:id="@+id/lang_tv"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="@string/language"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/lang_spinner"
+                app:layout_constraintTop_toBottomOf="@id/mobile_no_et" />
+
+            <Spinner
+                android:id="@+id/lang_spinner"
+                android:layout_width="220dp"
+
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="#CECACA"
+                android:entries="@array/langs_array"
+                app:layout_constraintLeft_toRightOf="@id/lang_tv"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mobile_no_et" />
+
+            <TextView
+                android:id="@+id/gender_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/gender"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lang_spinner" />
+
+            <RadioGroup
+                android:id="@+id/gender_rg"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gender_tv">
+
+                <RadioButton
+                    android:id="@+id/female_radio"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/female" />
+
+                <RadioButton
+                    android:id="@+id/male_radio"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:text="@string/male" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/confirm_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/send_confirm"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gender_rg" />
+
+
+            <CheckBox
+                android:id="@+id/email_cb"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:text="@string/email"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/confirm_tv" />
+
+            <CheckBox
+                android:id="@+id/sms_cb"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:text="@string/sms"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/email_cb" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/confirm"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:onClick="confirmClicked"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

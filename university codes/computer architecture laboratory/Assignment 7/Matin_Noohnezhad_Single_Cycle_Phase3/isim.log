@@ -1,0 +1,147 @@
+ISim log file
+Running: D:\term 5\Computer Architecture Laboratory\week 12 - Single Cycle CPU_Phase3\Matin_Noohnezhad_Single_Cycle_Phase3\TestMain_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/term 5/Computer Architecture Laboratory/week 12 - Single Cycle CPU_Phase3/Matin_Noohnezhad_Single_Cycle_Phase3/TestMain_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "D:/term 5/Computer Architecture Laboratory/week 12 - Single Cycle CPU_Phase3/Matin_Noohnezhad_Single_Cycle_Phase3/Main.v" Line 59.  For instance uut/mux32/, width 32 of formal port input1 is not equal to width 28 of actual signal shiftOut1.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+pccccccccccccccccccccccccccccc                    x
+MemWritex
+result         x
+pccccccccccccccccccccccccccccc                    0
+MemWrite0
+result         0
+pccccccccccccccccccccccccccccc                    4
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                    8
+MemWrite0
+result         4
+pccccccccccccccccccccccccccccc                   12
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   16
+MemWrite0
+result         8
+pccccccccccccccccccccccccccccc                   20
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   24
+MemWrite0
+result        12
+pccccccccccccccccccccccccccccc                   28
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   32
+MemWrite0
+result        16
+pccccccccccccccccccccccccccccc                   36
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   40
+MemWrite0
+result        20
+pccccccccccccccccccccccccccccc                   44
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   48
+MemWrite0
+result        24
+pccccccccccccccccccccccccccccc                   52
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   56
+MemWrite0
+result        28
+pccccccccccccccccccccccccccccc                   60
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   64
+MemWrite0
+result        32
+pccccccccccccccccccccccccccccc                   68
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   72
+MemWrite0
+result        36
+pccccccccccccccccccccccccccccc                   76
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   80
+MemWrite1
+result        40
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+pccccccccccccccccccccccccccccc                    x
+MemWritex
+result         x
+pccccccccccccccccccccccccccccc                    0
+MemWrite0
+result         0
+pccccccccccccccccccccccccccccc                    4
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                    8
+MemWrite0
+result         4
+pccccccccccccccccccccccccccccc                   12
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   16
+MemWrite0
+result         8
+pccccccccccccccccccccccccccccc                   20
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   24
+MemWrite0
+result        12
+pccccccccccccccccccccccccccccc                   28
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   32
+MemWrite0
+result        16
+pccccccccccccccccccccccccccccc                   36
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   40
+MemWrite0
+result        20
+pccccccccccccccccccccccccccccc                   44
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   48
+MemWrite0
+result        24
+pccccccccccccccccccccccccccccc                   52
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   56
+MemWrite0
+result        28
+pccccccccccccccccccccccccccccc                   60
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   64
+MemWrite0
+result        32
+pccccccccccccccccccccccccccccc                   68
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   72
+MemWrite0
+result        36
+pccccccccccccccccccccccccccccc                   76
+MemWrite0
+result4294936608
+pccccccccccccccccccccccccccccc                   80
+MemWrite1
+result        40

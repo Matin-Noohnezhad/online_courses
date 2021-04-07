@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Matin_Noohnezhad_Assignment_1</string>
+    <string name="go_to_second_activity">Enter a URL</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="url_input">Url</string>
+    <string name="open_url">Open Url</string>
+
+</resources>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 3</title>
+    <link rel="stylesheet" href="q3.css">
+</head>
+<body>
+<table id="t01" align="center">
+    <caption><b>دروس دانشجو</b></caption>
+    <tr>
+        <th>کد درس</th>
+        <th>عنوان درس</th>
+        <th>تعداد واحد</th>
+        <th>لینک به صفحه درس</th>
+        <th>عملیات</th>
+    </tr>
+    <tr onclick="indexSelector(1)" id="i1">
+        <td>COM4106</td>
+        <td>ماشین لرنینگ</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=1224">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;">
+        </td>
+    </tr>
+    <tr onclick="indexSelector(2)" id="i2">
+        <td>LAB3115</td>
+        <td>آزمایشگاه شبکه</td>
+        <td>1 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=3206">لینک درس</a></td>
+        <
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;">
+        </td>
+    </tr>
+    <tr onclick="indexSelector(3)" id="i3">
+        <td>COM4136</td>
+        <td>برنامه نویسی سیستم</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=2546">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(4)" id="i4">
+        <td>COM4134</td>
+        <td>برنامه نویسی وب</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=1707">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(5)" id="i5">
+        <td>COR3126</td>
+        <td>فراسوی فرهنگ رقابت و ستیز</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=3241">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(6)" id="i6">
+        <td>COM4106</td>
+        <td>ماشین لرنینگ2</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=1224">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(7)" id="i7">
+        <td>LAB3115</td>
+        <td>آزمایشگاه شبکه2</td>
+        <td>1 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=3206">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(8)" id="i8">
+        <td>COM4136</td>
+        <td>برنامه نویسی سیستم2</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=2546">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(9)" id="i9">
+        <td>COM4134</td>
+        <td>برنامه نویسی وب2</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=1707">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+    <tr onclick="indexSelector(10)" id="i10">
+        <td>COR3126</td>
+        <td>فراسوی فرهنگ رقابت و ستیز2</td>
+        <td>3 واحد</td>
+        <td><a href="https://course.bihe36.info/course/view.php?id=3241">لینک درس</a></td>
+        <td>
+            <img onclick="updown(true)" src="up_sign.png" style="width: 100%;height: auto;display: block;">
+            <img onclick="updown(false)" src="down_sign.png" style="width: 100%;height: auto;display: block;"></td>
+    </tr>
+</table>
+
+<script src="q3.js"></script>
+</body>
+</html>
