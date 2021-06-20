@@ -38,11 +38,14 @@ class ChildNetwork(nn.Module):
             if (n_skip_conn > 1 or i == num_hidden_layers+1):
                 #
                 conv1_num = 'conv1_' + str(i)
+                bn_c1_num = 'bn_c1_' + str(i)
                 #
                 if (i == num_hidden_layers + 1):
-                    next_layers = {conv1_num: nn.Conv2d(num_filters * n_skip_conn, num_classes, kernel_size=(1, 1))}
+                    next_layers = {conv1_num: nn.Conv2d(num_filters * n_skip_conn, num_classes, kernel_size=(1, 1)),
+                                   bn_c1_num: nn.BatchNorm2d(num_classes, eps=1e-05, momentum=0.9)}
                 else:
-                    next_layers = {conv1_num: nn.Conv2d(num_filters * n_skip_conn, num_filters, kernel_size=(1, 1))}
+                    next_layers = {conv1_num: nn.Conv2d(num_filters * n_skip_conn, num_filters, kernel_size=(1, 1)),
+                                   bn_c1_num: nn.BatchNorm2d(num_filters, eps=1e-05, momentum=0.9)}
                 #
                 self.conv1x1.update(next_layers)
                 #
@@ -111,6 +114,7 @@ class ChildNetwork(nn.Module):
                         x = torch.cat((x, layers_output[-(j + 1)]), dim=1)
             if (n > 1):
                 x = self.conv1x1['conv1_' + str(i)](x)
+                x = self.conv1x1['bn_c1_' + str(i)](x)
             #####
             conv3_num = 'conv3_' + str(i)
             conv5_num = 'conv5_' + str(i)
@@ -140,6 +144,7 @@ class ChildNetwork(nn.Module):
                     x = torch.cat((x, layers_output[-(j + 1)]), dim=1)
         # if (n > 1):
         x = self.conv1x1['conv1_' + str(self.num_hidden_layers + 1)](x)
+        x = self.conv1x1['bn_c1_' + str(self.num_hidden_layers + 1)](x)
         #####
         x = self.globalavgpool(x)
         # reshape

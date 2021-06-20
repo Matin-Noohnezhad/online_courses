@@ -13,8 +13,8 @@ def layer_sampler(x):
     ##
     selected = torch.searchsorted(prob, rand)
     # print('this is selected', selected)############################################################################################################################delete this
-    # take log after sampling (we couldn't do it before sampling)
-    x = torch.log(x)
+    # # take log after sampling (we couldn't do it before sampling)
+    # x = torch.log(x)
     #
     target = torch.Tensor(x.shape)
     for i in range(n):
@@ -24,9 +24,9 @@ def layer_sampler(x):
             # print('the shape of s is ', s.shape)############################################################################################################################delete this
             s[0, selected[i, 0, 0]] = 1
             target[i] = s
-        # don't care
         else:
-            target[i] = x[i]
+            target[i] = 0
+            # target[i] = x[i]
     # print(target)
     return target
 
@@ -37,7 +37,8 @@ def connection_sampler(x):
     target = torch.Tensor(x.shape)
     n = x.shape[0]
     for i in range(n):
-        target[i] = x[i]
+        with torch.no_grad():
+            target[i] = x[i]
         if i % 2 == 1:
             no_possible_connections = 0
             cont_status = True
@@ -48,8 +49,11 @@ def connection_sampler(x):
                 z[s < target[i, 0][:no_possible_connections]] = 1
                 cont_status = bool(torch.sum(z) == 0)
             target[i, 0][:no_possible_connections] = z
+            target[i, 0][no_possible_connections:] = 0
+        else:
+            target[i] = 0
 
-    # print(target)
+    # print('connection sampler' , target)
     return target
 
 

@@ -61,19 +61,23 @@ class Cifar10Trainer:
             correct, total = 0, 0
             predictions = []
             net.eval()
+            zzz = 0
             with torch.no_grad():
                 for i, data in enumerate(self.valloader, 0):
                     inputs, labels = data
                     inputs, labels = inputs.to(self.device), labels.to(self.device)
+                    xxx = time.time()
                     outputs = net(inputs)
                     _, predicted = torch.max(outputs.data, 1)
                     predictions.append(outputs)
                     total += labels.size(0)
                     correct += (predicted == labels).sum().item()
                 val_accuracy = 100 * correct / total
+                yyy = time.time()
+                zzz += (yyy - xxx)
                 print('step number ', n)
                 print('The validation set accuracy of the network is: %.2f %%' % (val_accuracy))
-
+            print('zzz: %.2f second' % zzz)
             end = time.time()
             n += 1
             train_time = end - start
