@@ -41,8 +41,11 @@ class Cifar10Trainer:
         train_time_list = []
         net.to(self.device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = optim.Adam(net.parameters(), lr=3e-4)
+        # optimizer = optim.Adam(net.parameters(), lr=3e-4)
+        optimizer = optim.SGD(net.parameters(), lr=5e-2, momentum=0.9, weight_decay=1e-4, nesterov=True)
+        cosine_scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=10, T_mult=2, eta_min=1e-3)
 
+        iters = len(self.trainloader)
         for epoch in range(no_epoch):
             start = time.time()
             net.to(self.device)
@@ -57,6 +60,8 @@ class Cifar10Trainer:
                 loss = criterion(outputs, labels)
                 loss.backward()
                 optimizer.step()
+                cosine_scheduler.step(epoch + i / iters)
+                # print(cosine_scheduler.get_lr())
 
             correct, total = 0, 0
             predictions = []
@@ -72,9 +77,9 @@ class Cifar10Trainer:
                     predictions.append(outputs)
                     total += labels.size(0)
                     correct += (predicted == labels).sum().item()
+                    yyy = time.time()
+                    zzz += (yyy - xxx)
                 val_accuracy = 100 * correct / total
-                yyy = time.time()
-                zzz += (yyy - xxx)
                 print('step number ', n)
                 print('The validation set accuracy of the network is: %.2f %%' % (val_accuracy))
             print('zzz: %.2f second' % zzz)

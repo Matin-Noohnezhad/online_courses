@@ -74,6 +74,11 @@ class ChildNetwork(nn.Module):
                     self.layers[bn_num].weight.copy_(state_dict['layers.' + bn_num + '.weight'])
                     self.layers[bn_num].bias.copy_(state_dict['layers.' + bn_num + '.bias'])
                 #
+        else:
+            # He initialization
+            for m in self.modules():
+                if isinstance(m, (nn.Conv2d)):
+                    nn.init.kaiming_normal_(m.weight, mode='fan_in')
 
     def forward(self, x):
         #

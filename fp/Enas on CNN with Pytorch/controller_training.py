@@ -28,8 +28,8 @@ def train(controller_net, soft_1, soft_2, layers_types, skip_connections, policy
         soft_1, soft_2 = controller_net()
         soft_1 = torch.log(soft_1)
 
-        reward1 = soft_1 * layers_types * policy_gradient_multiplier
-        reward2 = soft_2 * skip_connections * policy_gradient_multiplier
+        reward1 = soft_1 * layers_types * policy_gradient_multiplier/100
+        reward2 = soft_2 * skip_connections * policy_gradient_multiplier/100
         total_loss = - (reward1.mean() + reward2.mean())
         # print('matin noooooohnezhad')
         # total_loss.backward(torch.ones_like(total_loss) * policy_gradient_multiplier, retain_graph=True)

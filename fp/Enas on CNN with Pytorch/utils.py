@@ -66,7 +66,7 @@ def weighted_moving_average(accuracy_list):
     numerator = 0
     denominator = 0
     for i in range(l):
-        denominator += i
+        denominator += 1
         numerator += accuracy_list[i]
     return numerator / denominator
 

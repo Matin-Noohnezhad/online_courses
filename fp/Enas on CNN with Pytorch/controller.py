@@ -16,6 +16,14 @@ class ControllerNetwork(nn.Module):
         self.lstm = nn.LSTM(input_size=self.num_layers + self.num_layer_types, hidden_size=self.hidden_size,
                             num_layers=1)
         ####
+        # initialized uniformly between [-0.1, 0.1]
+        torch.nn.init.uniform_(self.fc1.weight, a=-0.1, b=0.1)
+        torch.nn.init.uniform_(self.fc2.weight, a=-0.1, b=0.1)
+        for name, param in self.lstm.named_parameters():
+            if 'weight' in name:
+                nn.init.uniform_(param, a=-0.1, b=0.1)
+        ####
+
 
     def forward(self):
         # initialize zero inputs
