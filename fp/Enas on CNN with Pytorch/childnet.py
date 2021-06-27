@@ -56,7 +56,7 @@ class ChildNetwork(nn.Module):
         #####
         if load_previous_network_weights:
             # load weights
-            print('Load previous network\'s weights to this network...')
+            # print('Load previous network\'s weights to this network...')
             state_dict = torch.load('weights.pth')
             for i in range(1, num_hidden_layers + 1):
                 #
