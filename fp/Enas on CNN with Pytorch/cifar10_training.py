@@ -41,7 +41,7 @@ class Cifar10Trainer:
         # self.testloader = torch.utils.data.DataLoader(self.testset, batch_size=self.batch_size,
         #                                               shuffle=False, num_workers=2)
 
-    def train(self, net, num_of_steps=400):
+    def train(self, net, num_of_steps=400, saving_weights=True):
         net.to(self.device)
         criterion = nn.CrossEntropyLoss()
         # optimizer = optim.Adam(net.parameters(), lr=3e-4)
@@ -86,8 +86,9 @@ class Cifar10Trainer:
         print('The validation time on whole validation set is {:.2f} seconds'.format(validation_time))
         print('The validation set accuracy of the sampled network is: {:.2f} %'.format(val_accuracy))
         #################################################################################
-        print('Saving child network\'s weights...')
-        torch.save(net.state_dict(), 'weights.pth')
+        if saving_weights:
+            print('Saving child network\'s weights...')
+            torch.save(net.state_dict(), 'weights.pth')
         #
         return val_accuracy, train_time
 
@@ -112,4 +113,4 @@ class Cifar10Trainer:
                 if single_step:
                     continue
             val_accuracy = 100 * correct / total
-            return val_accuracy
+        return val_accuracy
