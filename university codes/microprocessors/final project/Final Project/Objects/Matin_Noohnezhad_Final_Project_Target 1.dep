@@ -1,95 +1,0 @@
-Dependencies for Project 'Matin_Noohnezhad_Final_Project', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5E5A913C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBB92A)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBB92A)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBB92A)
-I (keyboard.h)(0x5E59B684)
-I (delay.h)(0x5E59A75C)
-I (uart.h)(0x5E59C6ED)
-I (lcd.h)(0x5E59B98C)
-I (CoolerHeater.h)(0x5E5A8B59)
-I (Buzzer.h)(0x5E5A8B52)
-F (.\keyboard.c)(0x5E59A72B)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\keyboard.o --omf_browse .\objects\keyboard.crf --depend .\objects\keyboard.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-I (delay.h)(0x5E59A75C)
-F (.\keyboard.h)(0x5E59B684)()
-F (.\delay.c)(0x5E59A75C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-F (.\delay.h)(0x5E59A75C)()
-F (.\uart.c)(0x5E59C1F5)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBB92A)
-F (.\uart.h)(0x5E59C6ED)()
-F (.\lcd.c)(0x5E59BB5D)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBB92A)
-I (delay.h)(0x5E59A75C)
-F (.\lcd.h)(0x5E59B98C)()
-F (.\CoolerHeater.c)(0x5E5A8273)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\coolerheater.o --omf_browse .\objects\coolerheater.crf --depend .\objects\coolerheater.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-F (.\CoolerHeater.h)(0x5E5A8B59)()
-F (.\Buzzer.c)(0x5E5A82F0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
-I (delay.h)(0x5E59A75C)
-F (.\Buzzer.h)(0x5E5A8B52)()
-F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59281EEE)()
-F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x582577B4)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x582577B4)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-I"C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x582577B4)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5E561AED)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\core_cm3.h)(0x5C8F7F0C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBB92A)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_version.h)(0x5B97538C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_compiler.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\cmsis_armcc.h)(0x5C8F7F0C)
-I (C:\Users\Matin NN\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x582577B4)
